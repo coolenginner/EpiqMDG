@@ -1201,8 +1201,8 @@ button.bg-danger:hover {
 .nav-tabs.nav-tabs-solid > li > a.active,
 .nav-tabs.nav-tabs-solid > li > a.active:hover,
 .nav-tabs.nav-tabs-solid > li > a.active:focus {
-	background-color: #20c0f3;
-	border-color: #20c0f3;
+	background-color: #219b92;
+	border-color: #219b92;
 	color: #fff;
 }
 .nav-tabs.nav-tabs-solid.nav-tabs-rounded {
@@ -2274,6 +2274,14 @@ html.menu-opened body {
 	15. Home
 -----------------------*/
 
+.section-banner { 
+	background: #f9f9f9 url(../img/family-bg.png) no-repeat top center;
+    min-height: 300px;
+    background-size: 100% auto;
+    position: relative;
+    background-blend-mode: Darken;
+    padding: 10px 0;
+}
 .section-search { 
 	background: #f9f9f9 url(../img/search-bg.png) no-repeat top center;
     min-height: 700px;
@@ -2993,7 +3001,7 @@ html.menu-opened body {
 -----------------------*/
 
 .breadcrumb-bar {
-    background-color: #15558d;
+    /* background-color: #15558d; */
     padding: 15px 0;
 }
 .breadcrumb-bar .breadcrumb-title {
@@ -5330,7 +5338,7 @@ html.menu-opened body {
 .fc-state-down,
 .fc-state-active,
 .fc-state-disabled {
-	background-color: #20c0f3 !important;
+	background-color: #219b92 !important;
 	color: #fff !important;
 	text-shadow: none !important;
 }
@@ -5448,7 +5456,7 @@ html.menu-opened body {
 }
 .dashboard-menu > ul > li:hover > a,
 .dashboard-menu > ul > li.active > a {
-	color:#0de0fe;
+	color:#219b92;
 }
 .dashboard-menu ul li a i {
     font-size: 16px;
@@ -7438,6 +7446,9 @@ ul.benifits-col li i{
 	.section-search {
 		background: #f9f9f9;
 	}
+	.section-banner {
+		background: #f9f9f9;
+	}
 	.section-primarcare {
 		background: #f9f9f9;
     	padding: 10px;
@@ -7936,6 +7947,10 @@ ul.benifits-col li i{
 
 @media only screen and (max-width:479px) {
 	.section-search {
+		min-height: 210px;
+		padding: 30px 15px;
+	}
+	.section-banner {
 		min-height: 210px;
 		padding: 30px 15px;
 	}
