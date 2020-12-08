@@ -1,6 +1,18 @@
 .home {
-    background-image: url("../assets/img/ai/EPIQ_dash.ai");
+
 }
+
+.home::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height:93%;
+    top: -10%;
+    right:-30%;
+    z-index: -1;
+    background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+    transform: rotate(270deg);
+  }
 
 .main-menu-wrapper{
     margin-left: 30%;
