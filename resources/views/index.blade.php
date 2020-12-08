@@ -33,7 +33,7 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-												<h3 class="card-title mb-0">Telemedicine</h3>
+												<h3 class="card-title mb-0">Telemedicine – Primary Care Services</h3>
 												<!-- <a href="search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Book Now</a> -->
 											</div>
 										</div>
@@ -44,7 +44,7 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-												<h3 class="card-title mb-0">Telewellness</h3>
+												<h3 class="card-title mb-0">Telehealth – Mental & Behavioral Health</h3>
 												<!-- <a href="pharmacy-search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Find Now</a> -->
 											</div>
 										</div>
@@ -55,7 +55,7 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-											<h3 class="card-title mb-0">Lab Services</h3>
+											<h3 class="card-title mb-0">Laboratory Diagnostics</h3>
 												<!-- <a href="javascript:void(0);" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Coming Soon</a> -->
 											</div>
 										</div>
@@ -68,7 +68,7 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-												<h3 class="card-title mb-0">Prescription Discounts</h3>
+												<h3 class="card-title mb-0">Prescription Discount Programs</h3>
 												<!-- <a href="search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Book Now</a> -->
 											</div>
 										</div>
@@ -79,7 +79,7 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-												<h3 class="card-title mb-0">Medical & Legal Advisory</h3>
+												<h3 class="card-title mb-0">Custom Diet & Nutrition Planning</h3>
 												<!-- <a href="pharmacy-search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Find Now</a> -->
 											</div>
 										</div>
@@ -90,7 +90,42 @@
 										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
 										<div class="doctor-book-card-content">
 											<div>
-											<h3 class="card-title mb-0">Diet & Nutrition</h3>
+											<h3 class="card-title mb-0">Medical Advisory</h3>
+												<!-- <a href="javascript:void(0);" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Coming Soon</a> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-4 mb-3">
+									<div class="card text-center doctor-book-card">
+										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
+										<div class="doctor-book-card-content">
+											<div>
+												<h3 class="card-title mb-0">Covid-19 Testing & Post-Covid-19 Planning</h3>
+												<!-- <a href="search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Book Now</a> -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 mb-3">
+									<div class="card text-center doctor-book-card">
+										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
+										<div class="doctor-book-card-content">
+											<div>
+												<h3 class="card-title mb-0">Nutraceutical Products</h3>
+												<!-- <a href="pharmacy-search" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Find Now</a> -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 mb-3">
+									<div class="card text-center doctor-book-card">
+										<img src="assets/img/doctors/doctor-07.jpg" alt="" class="img-fluid">
+										<div class="doctor-book-card-content">
+											<div>
+											<h3 class="card-title mb-0">Employer Programs</h3>
 												<!-- <a href="javascript:void(0);" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Coming Soon</a> -->
 											</div>
 										</div>
@@ -106,13 +141,13 @@
 			<section class="section section-primarcare">
 				<div class="container-fluid col-md-6" style="float:left">
 					<div class="banner-wrapper">
-							<div class="banner-header text-center">
-								<h2>COVID-19, Cold & Flu, Allergies.</h2>
-								<p class="sub-title">During this busy season, EpiqMD is here for you when you need it most 24/7, 365 access from anywhere.</p>
-							</div>
-							<div class="btn-start" style="text-align: -webkit-center;">
-								<button type="button" class="btn btn-block" style="width: auto;">About Primary Care</button>
-							</div>
+						<div class="banner-header text-center">
+							<h2>COVID-19, Cold & Flu, Allergies.</h2>
+							<p class="sub-title">During this busy season, EpiqMD is here for you when you need it most 24/7, 365 access from anywhere.</p>
+						</div>
+					</div>
+					<div class="btn-start" style="text-align: -webkit-center;">
+						<button type="button" class="btn btn-block" style="width: auto;">About Primary Care</button>
 					</div>
 				</div>   
 			</section>	 
