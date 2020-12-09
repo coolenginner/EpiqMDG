@@ -4,6 +4,9 @@
     width: 50%;
 }
 
+.hide{
+    font-size: 10px;
+}
 .mini-banner {
     background-color:#f0f0f0;
 }
