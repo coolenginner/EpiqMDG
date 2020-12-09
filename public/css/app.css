@@ -4,8 +4,14 @@
     width: 50%;
 }
 
+.banner-h2{
+    margin-top: 20%;
+    font-size: 18px;
+}
 .btn-success {
     border-radius: 60px;
+    padding: 0.5rem 1rem;
+    font-size : 12px;
 }
 
 .card {
