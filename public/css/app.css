@@ -1,34 +1,74 @@
-.home {
-
-}
-
-.home::before {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height:93%;
-    top: -10%;
-    right:-30%;
-    z-index: -1;
-    background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
-    transform: rotate(270deg);
-  }
 
 .main-menu-wrapper{
     margin-left: 30%;
     width: 50%;
 }
 
+.banner-h2{
+    margin-top: 20%;
+    font-size: 18px;
+}
+.btn-success {
+    border-radius: 60px;
+    padding: 0.5rem 1rem;
+    font-size : 12px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card .card-body{
+    border-radius: 15px;
+}
+
+.card .card-header{
+    border-radius: 15px;
+}
+
+.card .card-footer{
+    border-radius: 15px;
+}
+
+.card-bloc {
+    border-color: white;
+    margin-bottom: 0px;
+}
+
+.svg {
+    fill: white;
+}
+
+.col-md-9 {
+    margin: -25px 0px;
+    padding: 0.5rem 4.5rem;
+}
+
+.text-bloc {
+    padding: 0.5rem 1.5rem;
+}
+
+.card-body.card-list .list-group .list-group-item{
+    padding: 5px 0px;
+}
+
+.row-top{
+    margin-top: -2.8rem;
+}
+.col-6.col-sm-6.col-md-4.col-xl-4 .card .card-body{
+    padding: 0;
+}
+
+.col-6.col-sm-6.col-md-12.col-xl-4.col-without-padding img {
+    padding:1rem;
+}
+
+.hide{
+    font-size: 10px;
+}
 .mini-banner {
     background-color:#f0f0f0;
 }
-
-.icon {
-    font-size: 1.5rem;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    padding: 10px;
-  }
 
  .card-title{
     font-size: 1.8rem;
@@ -76,12 +116,57 @@
     font-size: 0.5rem;
  }
 
- .logo-img{
-     width: 28px;
-     height: auto;
- }
+ 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 0.9;
+  }
 
-
+  .sidenav2{
+    height: 110%;
+    background-color:red;
+    clip-path: circle(100% at 50% -20%);
+  }
+  .sidenav3{
+    height:150%;
+    background-color:blue;
+    clip-path: circle(100% at 40% -35%);
+  }
+  
+  .sidenav3 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fcfcfc;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav3 a:hover {
+    color: palegreen;
+  }
+  
+  .sidenav3 .closebtn {
+    position: absolute;
+    top: 0;
+    color: black;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 320px) {
     .row > form {
@@ -101,6 +186,7 @@
     .input-group {
         width: 10rem !important; 
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -114,8 +200,89 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .hide{
+        display: none;
+    }
+    .first{
+        display: none;
+    }
+
+    .navbar.justify-content-end .row .btn-group .icon{
+        padding: 0px;
+    }
+    .navbar.justify-content-end .row .btn-group {
+        flex-direction: column!important;
+    }
+    .navbar.justify-content-end .row form { display: none;}
+    .navbar.justify-content-end.responsive .row  .icon-burguer{
+      float: left;
+      display: block;
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+   .profile{
+       display: none;
+   }
+.first{
+    display: none;
+}
+  .navbar.justify-content-end.responsive {position: relative;}
+  .navbar.justify-content-end.responsive .row .icon-burguer {
+  }
+  .navbar.justify-content-end.responsive .row .btn-group a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.justify-content-end.responsive .row .icon-burguer{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .btn-group{
+      margin-left: 10rem;
+  }
+ .logo-img{
+    width: 14px;
+    height: auto;
+}
+
+.icon {
+    font-size: 0.5rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: 1.5px;
+    padding: 10px;
+  }
+
+.icon-epiqmd{
+    height: 30px;
+    width: 45px;
+    margin-left: 15rem;
+}
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
+.icon-epiqmd{
+    display: none;
+}
+ .logo-img{
+    width: 28px;
+    height: auto;
+}
+
+.icon {
+    font-size: 1.5rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+
+
     .row > form {
         margin-right: 50px;
     }
@@ -123,6 +290,17 @@
     .input-group {
         width: 20rem !important; 
     }
+
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 25% 70%;
+        background-position: right top;
+    }
+
+    
+ .icon-burguer{
+    display: none;
+ }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -134,6 +312,12 @@
     .input-group {
         width: 40rem !important; 
     }
+
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top ;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -144,6 +328,11 @@
 
     .input-group {
         width: 40rem !important; 
+    }
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top;
     }
 }
 
@@ -157,10 +346,16 @@
     .input-group {
         width: 40rem !important; 
     }
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top -60px;
+    }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 2500px) {
+@media only screen and (min-width: 2400px) {
     .row > form {
         margin-right: 50rem;
     }
@@ -169,8 +364,18 @@
         width: 40rem !important; 
     }
     
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top -60px;
+    }
+ 
 }
 
 .list-group-item-margin {
     padding: 0rem 0rem !important;
+}
+
+.col-without-padding {
+    padding: 0px;
 }
