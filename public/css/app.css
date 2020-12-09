@@ -26,9 +26,15 @@
 
 .card-bloc {
     border-color: white;
+    margin-bottom: 0px;
 }
 
-.col-md-9 .img-responsive {
+.svg {
+    fill: white;
+}
+
+.col-md-9 {
+    margin: -25px 0px;
     padding: 0.5rem 4.5rem;
 }
 
