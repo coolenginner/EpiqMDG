@@ -21,13 +21,21 @@
 </head>
 
 <body class="home">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
     <div class="wrapper">
         <header class="header">
             <nav class="navbar justify-content-end" id="myTopnav">
                 <div class="row">
-                    <a href="javascript:void(0);" class="icon-burguer" onclick="myFunction()">
+                    <a href="javascript:void(0);" class="icon-burguer" onclick="openNav()">
                         <i class="fa fa-bars fa-2x"></i>
-                      </a>
+                    </a>
                     <img src="../assets/img/logo_EPIQMD.png" class="icon-epiqmd">
                     <form>
                         <div class="input-group">
@@ -35,12 +43,14 @@
                         </div>
                     </form>
                     <div class="btn-group">
-                        <a class="icon"> <img src="../assets/fonts/shopping-cart.svg" alt="Logo" class="logo-img"></a>
+                        <a class="icon first"> <img src="../assets/fonts/shopping-cart.svg" alt="Logo"
+                                class="logo-img"></a>
                         <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
                         <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
                     </div>
-                   
+
                 </div>
+
             </nav>
         </header>
 
@@ -90,11 +100,6 @@
                                         <li>
                                             <a href="#">
                                                 <span>My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>EpicHome</span>
                                             </a>
                                         </li>
                                         <li>
@@ -208,7 +213,8 @@
                                                         <img src="../assets/img/telemedicine.png"
                                                             class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6> Telemedicine</h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -225,7 +231,8 @@
                                                         <img src="../assets/img/Tellewellnes.png"
                                                             class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6> Telewellness</h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -241,7 +248,8 @@
                                                     <div class="col-6 col-sm-6 col-md-12 col-xl-4 col-without-padding">
                                                         <img src="../assets/img/diet.png" class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6> Diet + Nutrition </h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -258,7 +266,8 @@
                                                         <img src="../assets/img/lab_services.png"
                                                             class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6> Lab Service</h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -275,7 +284,8 @@
                                                         <img src="../assets/img/prescription.png"
                                                             class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6>Prescription</h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -291,7 +301,8 @@
                                                     <div class="col-6 col-sm-6 col-md-12 col-xl-4 col-without-padding">
                                                         <img src="../assets/img/medical.png" class="img-responsive">
                                                     </div>
-                                                    <div class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
+                                                    <div
+                                                        class="col-6 col-sm-6 col-md-12 col-xl-8 col-without-padding align-self-center">
                                                         <h6>Medical + Legal Advisory</h6>
                                                         <p class="hide">Lorem ipsum, dolor sit amet consectetur
                                                             adipisicing elit.</p>
@@ -386,15 +397,14 @@
     <!-- Custom JS -->
     <script src="../assets/js/script.js"></script>
     <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "navbar justify-content-end") {
-            x.className += " responsive";
-          } else {
-            x.className = "navbar justify-content-end";
-          }
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
         }
-        </script>
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
