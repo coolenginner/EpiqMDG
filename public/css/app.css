@@ -87,6 +87,12 @@
     .input-group {
         width: 10rem !important; 
     }
+
+    .home {
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 140% 70%;
+        background-position: right top -50px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -99,10 +105,10 @@
         width: 20rem !important; 
     }
 
-    .home {
-        background: url("../assets/img/bg/color_img.png") 0 0 no-repeat;
-        background-size: 43% 50%;
-        background-position: right -250px top -163px;
+   .home {
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 80% 70%;
+        background-position: right top;
     }
 }
 
@@ -117,9 +123,9 @@
     }
 
     .home {
-        background: url("../assets/img/bg/color_img.png") 0 0 no-repeat;
-        background-size: 43% 50%;
-        background-position: right -250px top -163px;
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 75% 70%;
+        background-position: right top -60px;
     }
 }
 
@@ -134,9 +140,9 @@
     }
 
     .home {
-        background: url("../assets/img/bg/color_img.png") 0 0 no-repeat;
-        background-size: 43% 50%;
-        background-position: right -250px top -163px;
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 60% 70%;
+        background-position: right top -60px;
     }
 }
 
@@ -150,9 +156,9 @@
         width: 40rem !important; 
     }
     .home {
-        background: url("../assets/img/bg/color_img.png") 0 0 no-repeat;
-        background-size: 43% 50%;
-        background-position: right -150px top -163px;
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 40% 70%;
+        background-position: right top -60px;
     }
 }
 
@@ -167,9 +173,9 @@
         width: 40rem !important; 
     }
     .home {
-        background: url("../assets/img/bg/color_img.png") 0 0 no-repeat;
-        background-size: 43% 50%;
-        background-position: right -150px top -163px;
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 40% 70%;
+        background-position: right top -60px;
     }
     
 }
@@ -184,6 +190,11 @@
         width: 40rem !important; 
     }
     
+    .home {
+        background: url("../assets/img/bg/element1.png") 0 0 no-repeat;
+        background-size: 40% 70%;
+        background-position: right top -60px;
+    }
  
 }
 
