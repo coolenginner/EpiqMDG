@@ -62,28 +62,40 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    opacity: 0.9;
+  }
+
+  .sidenav2{
+    height: 110%;
+    background-color:red;
+    clip-path: circle(100% at 50% -20%);
+  }
+  .sidenav3{
+    height:150%;
+    background-color:blue;
+    clip-path: circle(100% at 40% -35%);
   }
   
-  .sidenav a {
+  .sidenav3 a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #fcfcfc;
     display: block;
     transition: 0.3s;
   }
   
-  .sidenav a:hover {
-    color: #f1f1f1;
+  .sidenav3 a:hover {
+    color: palegreen;
   }
   
-  .sidenav .closebtn {
+  .sidenav3 .closebtn {
     position: absolute;
     top: 0;
+    color: black;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
