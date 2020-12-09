@@ -4,6 +4,53 @@
     width: 50%;
 }
 
+.btn-success {
+    border-radius: 60px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card .card-body{
+    border-radius: 15px;
+}
+
+.card .card-header{
+    border-radius: 15px;
+}
+
+.card .card-footer{
+    border-radius: 15px;
+}
+
+.card-bloc {
+    border-color: white;
+}
+
+.col-md-9 .img-responsive {
+    padding: 0.5rem 4.5rem;
+}
+
+.text-bloc {
+    padding: 0.5rem 1.5rem;
+}
+
+.card-body.card-list .list-group .list-group-item{
+    padding: 5px 0px;
+}
+
+.row-top{
+    margin-top: -2.8rem;
+}
+.col-6.col-sm-6.col-md-4.col-xl-4 .card .card-body{
+    padding: 0;
+}
+
+.col-6.col-sm-6.col-md-12.col-xl-4.col-without-padding img {
+    padding:1rem;
+}
+
 .hide{
     font-size: 10px;
 }
