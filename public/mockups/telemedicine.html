@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="../css/app.css">
 </head>
 
-<body>
+<body  style="background-color: #D3D3D3;" class="home">
 
     <header class="header">
         <nav class="navbar justify-content-end">
@@ -127,7 +127,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-9 col-xl-9">
+                    <div class="col-lg-10 col-xl-10">
                         <div class="row">
                             <div class="col-md-8 col-xl-8 ">
                                 <div class="justify-content-center">
@@ -141,7 +141,10 @@
                                                             <img src="../assets/img/talk_to.png" class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
-                                                            <h6> Talk to a Doctor</h6>
+                                                            <div class="row justify-content-center">
+                                                                <h6> Talk to a Doctor</h6>
+                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -156,7 +159,8 @@
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
-                                                            <h6>Message a Doctor</h6>
+                                                            <div class="row justify-content-center"><h6>Message a Doctor</h6></div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -171,7 +175,10 @@
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
-                                                            <h6>Add a Family Member</h6>
+                                                            <div class="row justify-content-center">
+                                                                <h6>Add a Family Member</h6>
+                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -186,7 +193,10 @@
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
-                                                            <h6> Access Medical Record</h6>
+                                                            <div class="row justify-content-center">
+                                                                <h6> Access Medical Record</h6>
+                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -205,7 +215,7 @@
                                             <li class="list-group-item justify-content-center list-group-item-margin ">
                                                 <div class="row">
                                                     <div class="col-md-9 col-xl-9">
-                                                        <span>Your diagnostic consult...</span> 
+                                                        <span class="text-notification-consult">Your diagnostic consult...</span> 
                                                     </div>
                                                     <div class="col-md-6 col-xl-3">
                                                         <p class="notification-date-text"> 15 minutes ago</p>
@@ -215,7 +225,7 @@
                                             <li class="list-group-item justify-content-center list-group-item-margin">
                                                 <div class="row">
                                                     <div class="col-md-9 col-xl-9">
-                                                        <span>Your diagnostic consult...</span>
+                                                        <span  class="text-notification-consult">Your diagnostic consult...</span>
                                                     </div>
                                                     <div class="col-md-6 col-xl-3">
                                                         <p class="notification-date-text"> 15 minutes ago</p>
@@ -231,37 +241,40 @@
                                 <div class="card">
                                     <div id="calendar"></div>
                                 </div>
-                                <div class="card-header">
-                                    <h6>Your Health At glance</h6>
+                                <div class="card">
+                                    <div class="card-header" style="padding: 5px 0px;">
+                                        <h6 style="text-align: center;">Your Health At glance</h6>
+                                    </div>
+                                    <div class="card-body card-list">
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th  scope="col">Male</th>
+                                                <th scope="col">28 years old</th>
+                                                <th scope="col">07/04/1992</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Medications</td>
+                                                <td colspan="2">Iron Supplement</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Alergies</td>
+                                                <td colspan="2">N/A</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Health Reminder</td>
+                                                <td colspan="2"> <div>
+                                                    <p>Hep Screnning - Overdue</p>
+                                                    <p>Flu Shot - Overdue</p>
+                                                </div></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
                                 </div>
-                                <div class="card-body card-list">
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Male</th>
-                                            <th scope="col">28 years old</th>
-                                            <th scope="col">07/04/1992</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td>Medications</td>
-                                            <td colspan="2">Iron Supplement</td>
-                                          </tr>
-                                          <tr>
-                                            <td>Alergies</td>
-                                            <td colspan="2">N/A</td>
-                                          </tr>
-                                          <tr>
-                                            <td>Health Reminder</td>
-                                            <td colspan="2"> <div>
-                                                <p>Hep Screnning - Overdue</p>
-                                                <p>Flu Shot - Overdue</p>
-                                            </div></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                </div>
+                                
                             </div>
                         </div>
 
