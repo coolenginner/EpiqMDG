@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer</title>
+    <title>Lab Services</title>
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
 
@@ -34,10 +34,10 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../css/app.css">
-    <link rel="stylesheet" href="../css/responsive_telemedicine.css">
+    <link rel="stylesheet" href="../css/responsive_lab_services.css">
 </head>
 
-<body  style="background-color: #D3D3D3;" class="home">
+<body style="background-color: #D3D3D3;" class="home">
 
     <header class="header">
         <nav class="navbar justify-content-end">
@@ -80,7 +80,7 @@
                                         <img class="img-responsive" src="./img-01.jpg" alt="User Image">
                                     </a>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="dashboard-widget">
                                 <nav class="dashboard-menu">
                                     <ul>
@@ -129,16 +129,87 @@
 
                     </div>
                     <div class="col-md-9 col-lg-10 col-xl-10">
+                        <h1 style="font-size: 3rem; text-align: center;">Lab Services </h1>
+                        <div>
+                            <ul class="nav nav-tabs nav-tabs-bottom">
+                                <li class="nav-item"><a class="nav-link active custom-nav-link"
+                                        href="#top-justified-tab1" data-toggle="tab">Order Panels</a></li>
+                                <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
+                                        data-toggle="tab">Lab Results</a></li>
+                            </ul>
+                            <div class="tab-content" style="background-color: white;">
+                                <div class="tab-pane show active" id="top-justified-tab1">
+                                    <div class="row">
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <form action="doctor-dashboard.html">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3 style="text-align: center;">Choose Your Lab</h3>
+                                                                <select id="inputGender" class="form-control">
+                                                                    <option selected></option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card card-disabled-1">
+                                                <div class="card-body">
+                                                    <form action="doctor-dashboard.html">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3 style="text-align: center;">Select Your Text</h3>
+                                                                <select id="inputGender" class="form-control">
+                                                                    <option selected></option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card card-disabled-2">
+                                                <div class="card-body">
+                                                    <form action="doctor-dashboard.html">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3 style="text-align: center;">Pick Your Place</h3>
+                                                                <select id="inputGender" class="form-control">
+                                                                    <option selected></option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="top-justified-tab2">
+                                    Tab content 2
+                                </div>
+
+                                <div class="tab-pane" id="top-justified-tab3">
+                                    Tab content 3
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-            </div>
 
+            </div>
         </div>
-        <!-- /Page Content -->
-        <!-- /Footer -->
 
     </div>
+    <!-- /Page Content -->
+    <!-- /Footer -->
+
     <!-- /Main Wrapper -->
 
     <!-- jQuery -->

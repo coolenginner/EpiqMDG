@@ -1,0 +1,37 @@
+.card{
+    background-color: #2ab997;
+}
+
+.card-disabled-1 {
+    background-color: #7bcab3;
+}
+
+.card-disabled-2{
+    background-color: #abd8c9;
+}
+
+.fix-size{
+    padding-bottom: 1rem;
+}
+
+.nav-tabs > li > a{
+    color: black;
+}
+
+.card .card-body form .row .col-md-12 h3{
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.next-buttom:hover{
+ cursor: pointer;
+}
+
+.card{
+    border-radius: 0px;
+    height: 400px;
+}
+
+.tab-content {
+    padding: 1rem 3rem;
+}
