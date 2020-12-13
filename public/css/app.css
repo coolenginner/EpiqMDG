@@ -572,7 +572,7 @@ thead tr th {
 
     .card-service{
         border: 16px solid white;
-        height: 100px;
+        height: 140px;
     }
     .title-card-service{
         font-size: 1rem;
@@ -612,7 +612,7 @@ thead tr th {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 2400px) {
+@media only screen and (min-width: 2000px) {
     .row > form {
         margin-right: 50rem;
     }
