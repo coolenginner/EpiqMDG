@@ -1,3 +1,25 @@
+.fc-basic-view .fc-body .fc-row {
+    min-height: 2em;
+}
+
+.list-group-item a {
+    color: Dodgerblue;
+position: absolute;
+bottom: 0;
+right: 0;
+cursor: pointer;
+padding: 5px 5px 10px 5px;
+}
+
+.nav-tabs.nav-tabs-solid > li > a.active, .nav-tabs.nav-tabs-solid > li > a.active:hover, .nav-tabs.nav-tabs-solid > li > a.active:focus {
+    background-color: #E8E8E8;
+    border-color: #E8E8E8;
+    color:gray;
+}
+
+.list-group-item-pair{
+    background-color:  #e4e4e8;
+}
 @media only screen and (min-width: 768px){
     .row > form {
         margin-right: 2rem;
