@@ -1,0 +1,336 @@
+@media only screen and (min-width: 768px){
+    .row > form {
+        margin-right: 2rem;
+    }
+
+    .input-group {
+        width: 25rem !important; 
+        margin-right: 1rem;
+    }
+
+    
+.row-top{
+    margin-top: -2.8rem;
+}
+
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top ;
+    }
+
+    .card-subtitle{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 0.5rem;
+        padding-left: 1rem!important;
+    }
+    .card-title{}
+
+    .banner-h2{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .custom-padding{
+        padding-right: 0px;
+    }
+
+    .custom-padding-card{
+        padding: 2px 0.3rem;
+    }
+
+    .card-paragraph.custom-padding{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-paragraph{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .custom-padding-image{
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-date{
+        margin-left: -3rem!important;
+        font-size: 0.2rem!important;
+        font-weight: bold;
+    }
+
+    .btn-success{
+        font-size: 0.4rem;
+    }
+
+    .card-footer{
+        padding: 0px 1rem;
+    }
+
+    .card-service{
+        border: 16px solid white;
+        height: 110px;
+    }
+    .title-card-service{
+        font-size: 1rem !important;
+    }
+    .text-card-service{
+        font-size: 0.4rem;
+        padding-right: 0.5rem;
+}
+.card-header h3{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.card-header{
+    padding: 0.2rem 1rem;    
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .row > form {
+        margin-right: 100px;
+    }
+
+    .input-group {
+        width: 40rem !important; 
+    }
+
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top ;
+    }
+
+    
+.row-top{
+    margin-top: -1.8rem;
+}
+    
+    .card-subtitle{
+        padding-top: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 0.5rem;
+    }
+
+    .banner-h2{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .custom-padding{
+        padding-right: 0px;
+    }
+
+    .custom-padding-card{
+        padding: 2px 0.3rem;
+    }
+
+    .card-paragraph.custom-padding{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-paragraph{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .custom-padding-image{
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-date{
+        margin-left: -1.4rem!important;
+    }
+
+    .btn-success{
+        font-size: 0.4rem;
+    }
+
+    .card-footer{
+        padding: 0px 1rem;
+    }
+
+    .card-service{
+        border: 16px solid white;
+        height: 80px;
+    }
+    .title-card-service{
+        font-size: 1rem!important;
+        font-weight: bold;
+    }
+    .text-card-service{
+        font-size: 0.4rem;
+        padding-right: 0.5rem;
+}
+.card-header h3{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.card-header{
+    padding: 0.2rem 1rem;    
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .row > form {
+        margin-right: 12rem;
+    }
+
+    .input-group {
+        width: 40rem !important; 
+    }
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top;
+    }
+
+       
+    .card-subtitle{
+        padding-top: 0.9rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 0.8rem;
+    }
+
+    .banner-h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .custom-padding{
+        padding-right: 0px;
+    }
+
+    .custom-padding-card{
+        padding: 2px 0.3rem;
+    }
+
+    .card-paragraph.custom-padding{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-paragraph{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .custom-padding-image{
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-date{
+        margin-left: -1.4rem!important;
+    }
+
+    .btn-success{
+        font-size: 0.8rem;
+    }
+
+    .card-footer{
+        padding: 0px 1rem;
+    }
+
+    .card-service{
+        border: 16px solid white;
+        height: 140px;
+    }
+    .title-card-service{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .text-card-service{
+        font-size: 0.8rem;
+        padding-right: 0.5rem;
+}
+.card-header h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-header{
+    padding: 0.2rem 1rem;    
+}
+
+.paragraph-bloc{
+    padding: 0px 40px 0px 10px;
+}
+
+.title-card-service{
+    font-size: 1.5rem!important;
+}
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+    .row > form {
+        margin-right: 25rem;
+    }
+
+    .input-group {
+        width: 40rem !important; 
+    }
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top -60px;
+    }
+    
+    .title-card-service{
+        font-size: 2rem!important;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 2000px) {
+    .row > form {
+        margin-right: 50rem;
+    }
+
+    .input-group {
+        width: 40rem !important; 
+    }
+    
+    .home {
+        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background-size: 35% 70%;
+        background-position: right top -60px;
+    }
+
+    .title-card-service{
+        font-size: 3rem!important;
+    }
+    
+ 
+}
+
+
+.list-group-item-margin {
+    padding: 0rem 0rem !important;
+}
+
+.col-without-padding {
+    padding: 0px;
+}
