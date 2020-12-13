@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer</title>
+    <title>Telemedicine</title>
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
 
@@ -34,9 +34,10 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/responsive_telemedicine.css">
 </head>
 
-<body  style="background-color: #D3D3D3;" class="home">
+<body  style="background-color:#e7e8e9;" class="home">
 
     <header class="header">
         <nav class="navbar justify-content-end">
@@ -70,7 +71,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-2 col-xl-2">
+                    <div class="col-md-3 col-lg-2 col-xl-2">
                         <!-- Profile Sidebar -->
                         <div class="profile-sidebar">
                             <div class="widget-profile pro-widget-content">
@@ -127,22 +128,22 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-md-9 col-lg-10 col-xl-10">
                         <div class="row">
                             <div class="col-md-8 col-xl-8 ">
                                 <div class="justify-content-center">
-                                    <h1 style="text-align: center; font-size: 3.25rem;">Telemedicine</h1>
+                                    <h1>Telemedicine</h1>
                                     <div class="row">
                                         <div class="col-md-6 col-xl-6">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row justify-content-center">
-                                                        <div class="col-md-6 col-xl-4">
+                                                        <div class="col-md-6 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/talk_to.png" class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
                                                             <div class="row justify-content-center">
-                                                                <h6> Talk to a Doctor</h6>
+                                                                <h6 class="title-card-service"> Talk to a Doctor</h6>
                                                             </div>
                                                             
                                                         </div>
@@ -154,12 +155,12 @@
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4">
+                                                        <div class="col-md-6 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/message_doctor.png"
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
-                                                            <div class="row justify-content-center"><h6>Message a Doctor</h6></div>
+                                                            <div class="row justify-content-center"> <h6 class="title-card-service">Message a Doctor</h6></div>
                                                             
                                                         </div>
                                                     </div>
@@ -170,13 +171,13 @@
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4">
+                                                        <div class="col-md-6 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/add_family.png"
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
                                                             <div class="row justify-content-center">
-                                                                <h6>Add a Family Member</h6>
+                                                                <h6 class="title-card-service">Add a Family Member</h6>
                                                             </div>
                                                             
                                                         </div>
@@ -188,13 +189,13 @@
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4">
+                                                        <div class="col-md-6 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/medical_record.png"
                                                                 class="img-responsive">
                                                         </div>
                                                         <div class="col-md-6 col-xl-8">
                                                             <div class="row justify-content-center">
-                                                                <h6> Access Medical Record</h6>
+                                                                <h6 class="title-card-service"> Access Medical Record</h6>
                                                             </div>
                                                             
                                                         </div>
@@ -214,24 +215,35 @@
                                         <ul class="list-group">
                                             <li class="list-group-item justify-content-center list-group-item-margin ">
                                                 <div class="row">
-                                                    <div class="col-md-9 col-xl-9">
-                                                        <span class="text-notification-consult">Your diagnostic consult...</span> 
+                                                    <div class="col-md-9 col-xl-9 custom-padding-card">
+                                                        <p class="card-paragraph">Your diagnostic consult...</p> 
                                                     </div>
-                                                    <div class="col-md-6 col-xl-3">
-                                                        <p class="notification-date-text"> 15 minutes ago</p>
+                                                    <div class="col-md-3 col-xl-3 custom-padding">
+                                                        <p class="card-paragraph card-date"> 15 minutes ago</p>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="list-group-item justify-content-center list-group-item-margin">
+                                            <li class="list-group-item justify-content-center list-group-item-margin ">
                                                 <div class="row">
-                                                    <div class="col-md-9 col-xl-9">
-                                                        <span  class="text-notification-consult">Your diagnostic consult...</span>
+                                                    <div class="col-md-9 col-xl-9 custom-padding-card">
+                                                        <p class="card-paragraph">Your diagnostic consult...</p> 
                                                     </div>
-                                                    <div class="col-md-6 col-xl-3">
-                                                        <p class="notification-date-text"> 15 minutes ago</p>
+                                                    <div class="col-md-3 col-xl-3 custom-padding">
+                                                        <p class="card-paragraph card-date"> 15 minutes ago</p>
                                                     </div>
                                                 </div>
                                             </li>
+                                            <li class="list-group-item justify-content-center list-group-item-margin ">
+                                                <div class="row">
+                                                    <div class="col-md-9 col-xl-9 custom-padding-card">
+                                                        <p class="card-paragraph">Your diagnostic consult...</p> 
+                                                    </div>
+                                                    <div class="col-md-3 col-xl-3 custom-padding">
+                                                        <p class="card-paragraph card-date"> 15 minutes ago</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                           
                                         </ul>
                                     </div>
                                     <div class="card-footer">
@@ -246,7 +258,7 @@
                                         <h6 style="text-align: center;">Your Health At glance</h6>
                                     </div>
                                     <div class="card-body card-list">
-                                        <table class="table">
+                                        <table class="table table-bordered table-condensed table-responsive">
                                             <thead>
                                               <tr>
                                                 <th  scope="col">Male</th>

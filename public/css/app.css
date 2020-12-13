@@ -5,6 +5,7 @@
 }
 
 .banner-h2{
+    font-weight: bold;
     margin-top: 20%;
     font-size: 18px;
 }
@@ -68,9 +69,6 @@ thead tr th {
     padding: 5px 0px;
 }
 
-.row-top{
-    margin-top: -2.8rem;
-}
 .col-6.col-sm-6.col-md-4.col-xl-4 .card .card-body{
     padding: 0;
 }
@@ -319,79 +317,3 @@ thead tr th {
  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .row > form {
-        margin-right: 100px;
-    }
-
-    .input-group {
-        width: 40rem !important; 
-    }
-
-    .home {
-        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
-        background-size: 35% 70%;
-        background-position: right top ;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .row > form {
-        margin-right: 12rem;
-    }
-
-    .input-group {
-        width: 40rem !important; 
-    }
-    .home {
-        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
-        background-size: 35% 70%;
-        background-position: right top;
-    }
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1600px) {
-    .row > form {
-        margin-right: 25rem;
-    }
-
-    .input-group {
-        width: 40rem !important; 
-    }
-    .home {
-        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
-        background-size: 35% 70%;
-        background-position: right top -60px;
-    }
-    
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 2400px) {
-    .row > form {
-        margin-right: 50rem;
-    }
-
-    .input-group {
-        width: 40rem !important; 
-    }
-    
-    .home {
-        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
-        background-size: 35% 70%;
-        background-position: right top -60px;
-    }
- 
-}
-
-.list-group-item-margin {
-    padding: 0rem 0rem !important;
-}
-
-.col-without-padding {
-    padding: 0px;
-}

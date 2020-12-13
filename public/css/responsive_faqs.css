@@ -1,0 +1,23 @@
+.card{
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: #e4e4e8;
+    border-color: #e4e4e8 ;
+}
+
+.card-two{
+    background-color: white;
+    border-color: white ;
+}
+
+.card .card-header{
+    padding: 0px 1rem;
+    background-color: #e4e4e8;
+    border-color: #e4e4e8 ;
+}
+
+.card .card-header-two{
+    padding: 0px 1rem;
+    background-color: white;
+    border-color: white ;
+}
