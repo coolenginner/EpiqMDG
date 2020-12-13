@@ -5,6 +5,7 @@
 }
 
 .banner-h2{
+    font-weight: bold;
     margin-top: 20%;
     font-size: 18px;
 }
@@ -68,9 +69,6 @@ thead tr th {
     padding: 5px 0px;
 }
 
-.row-top{
-    margin-top: -2.8rem;
-}
 .col-6.col-sm-6.col-md-4.col-xl-4 .card .card-body{
     padding: 0;
 }
@@ -331,6 +329,11 @@ thead tr th {
         margin-right: 1rem;
     }
 
+    
+.row-top{
+    margin-top: -2.8rem;
+}
+
     .home {
         background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
         background-size: 35% 70%;
@@ -348,6 +351,7 @@ thead tr th {
     .card-title{}
 
     .banner-h2{
+        font-weight: bold;
         font-size: 0.7rem;
     }
 
@@ -388,9 +392,11 @@ thead tr th {
 
     .card-service{
         border: 16px solid white;
+        height: 110px;
     }
     .title-card-service{
         font-size: 0.5rem;
+        font-weight: bold;
     }
     .text-card-service{
         font-size: 0.4rem;
@@ -403,9 +409,6 @@ thead tr th {
 .card-header{
     padding: 0.2rem 1rem;    
 }
-
-
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -423,6 +426,82 @@ thead tr th {
         background-size: 35% 70%;
         background-position: right top ;
     }
+
+    
+.row-top{
+    margin-top: -1.8rem;
+}
+    
+    .card-subtitle{
+        padding-top: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 0.5rem;
+    }
+
+    .banner-h2{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .custom-padding{
+        padding-right: 0px;
+    }
+
+    .custom-padding-card{
+        padding: 2px 0.3rem;
+    }
+
+    .card-paragraph.custom-padding{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-paragraph{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .custom-padding-image{
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-date{
+        margin-left: -1.4rem!important;
+    }
+
+    .btn-success{
+        font-size: 0.4rem;
+    }
+
+    .card-footer{
+        padding: 0px 1rem;
+    }
+
+    .card-service{
+        border: 16px solid white;
+        height: 80px;
+    }
+    .title-card-service{
+        font-size: 0.5rem;
+        font-weight: bold;
+    }
+    .text-card-service{
+        font-size: 0.4rem;
+        padding-right: 0.5rem;
+}
+.card-header h3{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.card-header{
+    padding: 0.2rem 1rem;    
+}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -439,6 +518,79 @@ thead tr th {
         background-size: 35% 70%;
         background-position: right top;
     }
+
+       
+    .card-subtitle{
+        padding-top: 0.9rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 0.8rem;
+    }
+
+    .banner-h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .custom-padding{
+        padding-right: 0px;
+    }
+
+    .custom-padding-card{
+        padding: 2px 0.3rem;
+    }
+
+    .card-paragraph.custom-padding{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-paragraph{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .custom-padding-image{
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-date{
+        margin-left: -1.4rem!important;
+    }
+
+    .btn-success{
+        font-size: 0.8rem;
+    }
+
+    .card-footer{
+        padding: 0px 1rem;
+    }
+
+    .card-service{
+        border: 16px solid white;
+        height: 100px;
+    }
+    .title-card-service{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .text-card-service{
+        font-size: 0.8rem;
+        padding-right: 0.5rem;
+}
+.card-header h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-header{
+    padding: 0.2rem 1rem;    
+}
+
+
 }
 
 
