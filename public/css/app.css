@@ -4,6 +4,12 @@
     width: 50%;
 }
 
+a.icon-burguer {
+    position: absolute;
+    left: 0;
+    margin: 0px 5px;
+}
+
 .banner-h2{
     font-weight: bold;
     margin-top: 20%;
@@ -184,7 +190,7 @@ thead tr th {
     .sidenav a {font-size: 18px;}
   }
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 510px) {
     .row > form {
         margin-right: 5px;
     }
@@ -192,6 +198,7 @@ thead tr th {
     .input-group {
         width:10rem !important; 
     }
+
 }
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 321px) {
@@ -205,22 +212,76 @@ thead tr th {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 510px) {
+@media only screen and (max-width: 440px) {
     .row > form {
         margin-right: 50px;
     }
 
+    .icon-epiqmd {
+        left: 25%!important;
+    }
+
+    #legal-advisory{
+        margin-top: 10px;
+    }
+    .col-without-padding .img-responsive{
+        width: 70px;
+    }
     .input-group {
         width: 20rem !important; 
     }
-}
 
+    .col-without-padding h6 {
+        margin-left: -1rem!important;
+        font-size: 0.7rem!important;
+    }
+      
+    .card-service{
+        height: 75px!important;
+    }
+    
+    .btn-group{
+        margin-left: 3rem!important;
+        margin-right: 1rem!important ;
+    }
+   .logo-img{
+      width: 20px;
+      height: auto;
+  }
+  
+  .icon {
+      font-size: 0.5rem;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      margin-bottom: 1.5px;
+      padding: 10px;
+    }
+  
+  .icon-epiqmd{
+      height: 40px;
+      width: 50px;
+      margin-left: 4rem!important;
+      margin-right: 3rem!important;
+  }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and  (max-width: 600px)  {
 
     #myTopnav{
         background-color: whitesmoke;
+    }
+
+    
+
+    .icon-epiqmd {
+        height: 40px;
+        width: 50px;
+        position: absolute;
+        left: 45%;
+    }
+
+    .img-responsive{
+        max-width: 80%!important;
     }
     .home {
         background: url("../assets/img/bg/element2.png") 0 0 no-repeat;
@@ -302,12 +363,6 @@ thead tr th {
     padding: 10px;
   }
 
-.icon-epiqmd{
-    height: 40px;
-    width: 50px;
-    margin-left: 8rem;
-    margin-right: 5rem;
-}
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 601px) {
