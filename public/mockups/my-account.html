@@ -35,256 +35,304 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/responsive_account.css">
+    <link rel="stylesheet" href="../css/responsive_customer.css">
 </head>
 
 <body style="background-color:#e7e8e9;">
-
-    <header class="header">
-        <nav class="navbar justify-content-end">
-            <div class="row">
-                <form>
-                    <div class="input-group">
-                        <input type="text" placeholder="Search..." class="form-control">
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav2">
+            <div class="sidenav3">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="widget-profile pro-widget-content">
+                    <div class="profile-info-widget">
+                        <a href="#" class="booking-doc-img">
+                            <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
+                        </a>
                     </div>
-                </form>
-                <div class="btn-group">
-                    <a class="icon"> <img src="../assets/fonts/shopping-cart.svg" alt="Logo" class="logo-img"></a>
-                    <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
-                    <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
                 </div>
+                <a href="#">
+                    <span>Services</span>
+                </a>
+
+                <a href="#">
+                    <span>Shop Products</span>
+                </a>
+
+                <a href="faqs.html">
+                    <span>FAQ</span>
+                </a>
+
+                <a href="document-manager.html">
+                    <span>Document Manager</span>
+                </a>
+
+                <a href="my-account.html">
+                    <span>My Account</span>
+                </a>
+
+                <a href="#">
+                    <span>EpicHome</span>
+                </a>
+                <a> <span class="fas fa-sign-out-alt"></i></a>
             </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid minibanner">
-        <div class="row justify-content-center bg-secondary rounded">
-            <h6 class="text-white">Covid-19 updates</h6>
         </div>
+
     </div>
-
-    <!-- Main Wrapper -->
-    <div class="main-wrapper">
-
-        <!-- Page Content -->
-        <div class="content">
-            <div class="container-fluid">
-
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navbar justify-content-end" id="myTopnav">
                 <div class="row">
-
-                    <div class="col-md-3 col-lg-3 col-xl-2 profile">
-                        <!-- Profile Sidebar -->
-                        <div class="profile-sidebar theiaStickySidebar">
-                            <div class="widget-profile pro-widget-content">
-                                <div class="profile-info-widget">
-                                    <a href="#" class="booking-doc-img">
-                                        <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="dashboard-widget">
-                                <nav class="dashboard-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span>Services</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Shop Products</span>
-                                            </a>
-                                        </li>
-                                       
-                                        <li>
-                                            <a href="faqs.html">
-                                                <span>FAQ</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="document-manager.html">
-                                                <span>Document Manager</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="my-account.html">
-                                                <span>My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>EpicHome</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a> <span class="fas fa-sign-out-alt"></i></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
+                    <a href="javascript:void(0);" class="icon-burguer" onclick="openNav()">
+                        <i class="fa fa-bars fa-3x"></i>
+                    </a>
+                    <img src="../assets/img/logo_EPIQMD.png" class="icon-epiqmd">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Search..." class="form-control">
                         </div>
-                        <!-- /Profile Sidebar -->
+                    </form>
+                    <div class="btn-group">
+                        <a class="icon first"> <img style="fill: white;" src="../assets/fonts/shopping-cart.svg"
+                                alt="Logo" class="logo-img"></a>
+                        <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
+                        <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
                     </div>
-                    <div class="col-md-9 col-lg-10 col-xl-10">
-                        <h1 style="font-size: 3rem; text-align: center;">My Account</h1>
-                        <div style="background-color:#d1d2d4;">
-                            <ul class="nav nav-tabs nav-tabs-bottom">
-                                <li class="nav-item"><a class="nav-link active custom-nav-link"
-                                        href="#top-justified-tab1" data-toggle="tab">My Profile</a></li>
-                                <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
-                                        data-toggle="tab">Billing Info</a></li>
-                                <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
-                                        data-toggle="tab">Payment History</a></li>
-                            </ul>
-                            <div class="tab-content" style="background-color: white;">
-                                <div class="tab-pane show active" id="top-justified-tab1">
-                                    <div class="row">
-                                        <div class="col-md-3 col-lg-3">
-                                            <div class="profile-sidebar">
-                                                <div class="widget-profile pro-widget-content">
-                                                    <div class="profile-info-widget">
-                                                        <a href="#" class="booking-doc-img">
-                                                            <img class="img-responsive" src="./img-01.jpg"
-                                                                alt="User Image">
-                                                        </a>
-                                                    </div>
-                                                    <div class="row justify-content-center">
-                                                        <i class="fas fa-edit"></i>
-                                                        <i class="far fa-trash-alt"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-9 col-lg-9">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <form action="doctor-dashboard.html">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <h4 style="text-align: center;">Personal Information
-                                                                </h4>
-                                                                <div class="row">
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>First Name </label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Middle Name </label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Last Name </label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Username </label>
-                                                                            <input type="text" class="form-control"
-                                                                                readonly="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4 mr-4">
-                                                                        <div class="form-group">
-                                                                            <label>password </label>
-                                                                            <input type="password" class="form-control"
-                                                                                readonly="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-7">
-                                                                        <div class="form-group">
-                                                                            <label>Email</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-6 ml-4">
-                                                                        <label>Date Of Birth</label>
-                                                                        <div class="row">
-                                                                            <select id="inputDay" class="form-control col-md-3">
-                                                                                <option selected>Day</option>
-                                                                            </select>
-                                                                            <select id="inputMonth"
-                                                                                class="form-control col-md-3 mr-1">
-                                                                                <option selected>Month</option>
-                                                                            </select>
-                                                                            <select id="inputYear" class="form-control col-md-3">
-                                                                                <option selected>Year</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-3">
-                                                                        <label>Gender</label>
-                                                                        <select id="inputGender" class="form-control">
-                                                                            <option selected>Female</option>
-                                                                            <option>Male</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12" style="margin-top: 2rem;">
-                                                                <h4 style="text-align: center;">Contact Information
-                                                                </h4>
-                                                                <div class="row">
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Address</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Address 2 </label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>City </label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>State </label>
-                                                                            <input type="text" class="form-control"
-                                                                                >
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-group">
-                                                                            <label>Zip</label>
-                                                                            <input type="text" class="form-control">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
 
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="container-fluid minibanner hide">
+            <div class="row justify-content-center bg-secondary rounded">
+                <h6 class="text-white">Covid-19 updates</h6>
+            </div>
+        </div>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+
+            <!-- Page Content -->
+            <div class="content">
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col-md-3 col-lg-3 col-xl-2 profile">
+                            <!-- Profile Sidebar -->
+                            <div class="profile-sidebar theiaStickySidebar">
+                                <div class="widget-profile pro-widget-content">
+                                    <div class="profile-info-widget">
+                                        <a href="#" class="booking-doc-img">
+                                            <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="tab-pane" id="top-justified-tab2">
-                                    Tab content 2
-                                </div>
+                                <div class="dashboard-widget">
+                                    <nav class="dashboard-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <span>Services</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span>Shop Products</span>
+                                                </a>
+                                            </li>
 
-                                <div class="tab-pane" id="top-justified-tab3">
-                                    Tab content 3
+                                            <li>
+                                                <a href="faqs.html">
+                                                    <span>FAQ</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="document-manager.html">
+                                                    <span>Document Manager</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="my-account.html">
+                                                    <span>My Account</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span>EpicHome</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a> <span class="fas fa-sign-out-alt"></i></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <!-- /Profile Sidebar -->
+                        </div>
+                        <div class="col-md-9 col-lg-9 col-xl-10">
+                            <h1 style="font-size: 3rem; text-align: center;">My Account</h1>
+                            <div style="background-color:#d1d2d4;">
+                                <ul class="nav nav-tabs nav-tabs-bottom">
+                                    <li class="nav-item"><a class="nav-link active custom-nav-link"
+                                            href="#top-justified-tab1" data-toggle="tab">My Profile</a></li>
+                                    <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
+                                            data-toggle="tab">Billing Info</a></li>
+                                    <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
+                                            data-toggle="tab">Payment History</a></li>
+                                </ul>
+                                <div class="tab-content" style="background-color: white;">
+                                    <div class="tab-pane show active" id="top-justified-tab1">
+                                        <div class="row">
+                                            <div class="col-md-3 col-lg-3">
+                                                <div class="profile-sidebar">
+                                                    <div class="widget-profile pro-widget-content">
+                                                        <div class="profile-info-widget">
+                                                            <a href="#" class="booking-doc-img">
+                                                                <img class="img-responsive" src="./img-01.jpg"
+                                                                    alt="User Image">
+                                                            </a>
+                                                        </div>
+                                                        <div class="row justify-content-center">
+                                                            <i class="fas fa-edit"></i>
+                                                            <i class="far fa-trash-alt"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-lg-9">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <form action="doctor-dashboard.html">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <h4 style="text-align: center;">Personal Information
+                                                                    </h4>
+                                                                    <div class="row">
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="form-group">
+                                                                                <label>First Name </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="form-group">
+                                                                                <label>Middle Name </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-7 col-lg-4">
+                                                                            <div class="form-group">
+                                                                                <label>Last Name </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>Username </label>
+                                                                                <input type="text" class="form-control"
+                                                                                    readonly="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>password </label>
+                                                                                <input type="password"
+                                                                                    class="form-control" readonly="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-7">
+                                                                            <div class="form-group">
+                                                                                <label>Email</label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6 ml-4 mb-2">
+                                                                            <label>Date Of Birth</label>
+                                                                            <div class="row">
+                                                                                <select id="inputDay"
+                                                                                    class="form-control col-3 col-md-3">
+                                                                                    <option selected>Day</option>
+                                                                                </select>
+                                                                                <select id="inputMonth"
+                                                                                    class="form-control col-3  col-md-3 mr-1">
+                                                                                    <option selected>Month</option>
+                                                                                </select>
+                                                                                <select id="inputYear"
+                                                                                    class="form-control col-3  col-md-3">
+                                                                                    <option selected>Year</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <label>Gender</label>
+                                                                            <select id="inputGender"
+                                                                                class="form-control">
+                                                                                <option selected>Female</option>
+                                                                                <option>Male</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12" style="margin-top: 2rem;">
+                                                                    <h4 style="text-align: center;">Contact Information
+                                                                    </h4>
+                                                                    <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>Address</label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>Address 2 </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>City </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>State </label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <div class="form-group">
+                                                                                <label>Zip</label>
+                                                                                <input type="text" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="top-justified-tab2">
+                                        Tab content 2
+                                    </div>
+
+                                    <div class="tab-pane" id="top-justified-tab3">
+                                        Tab content 3
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-
     </div>
     <!-- /Page Content -->
     <!-- /Footer -->
@@ -314,7 +362,7 @@
     <!-- Custom JS -->
     <script src="../assets/js/script.js"></script>
     <!-- Custom JS -->
-    <script src="../assets/js/script.js"></script>
+    <script src="../js/open-sidenav.js"></script>
 </body>
 
 </html>
