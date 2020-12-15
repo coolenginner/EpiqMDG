@@ -38,30 +38,75 @@
 </head>
 
 <body  style="background-color:#e7e8e9;" class="home">
-
-    <header class="header">
-        <nav class="navbar justify-content-end">
-            <div class="row">
-                <form>
-                    <div class="input-group">
-                        <input type="text" placeholder="Search..." class="form-control">
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav2">
+            <div class="sidenav3">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="widget-profile pro-widget-content">
+                    <div class="profile-info-widget">
+                        <a href="#" class="booking-doc-img">
+                            <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
+                        </a>
                     </div>
-                </form>
-                <div class="btn-group">
-                    <a class="icon"> <img src="../assets/fonts/shopping-cart.svg" alt="Logo" class="logo-img"></a>
-                    <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
-                    <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
                 </div>
+                <a href="#">
+                    <span>Services</span>
+                </a>
+
+                <a href="#">
+                    <span>Shop Products</span>
+                </a>
+
+                <a href="faqs.html">
+                    <span>FAQ</span>
+                </a>
+
+                <a href="document-manager.html">
+                    <span>Document Manager</span>
+                </a>
+
+                <a href="my-account.html">
+                    <span>My Account</span>
+                </a>
+
+                <a href="#">
+                    <span>EpicHome</span>
+                </a>
+                <a> <span class="fas fa-sign-out-alt"></i></a>
             </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid minibanner">
-        <div class="row justify-content-center bg-secondary rounded">
-            <h6 class="text-white">Covid-19 updates</h6>
         </div>
-    </div>
 
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navbar justify-content-end" id="myTopnav">
+                <div class="row">
+                    <a href="javascript:void(0);" class="icon-burguer" onclick="openNav()">
+                        <i class="fa fa-bars fa-3x"></i>
+                    </a>
+                    <img src="../assets/img/logo_EPIQMD.png" class="icon-epiqmd">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Search..." class="form-control">
+                        </div>
+                    </form>
+                    <div class="btn-group">
+                        <a class="icon first"> <img style="fill: white;" src="../assets/fonts/shopping-cart.svg"
+                                alt="Logo" class="logo-img"></a>
+                        <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
+                        <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
+                    </div>
+
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="container-fluid minibanner hide">
+            <div class="row justify-content-center bg-secondary rounded">
+                <h6 class="text-white">Covid-19 updates</h6>
+            </div>
+        </div>
     <!-- Main Wrapper -->
     <div class="main-wrapper">
 
@@ -71,16 +116,16 @@
 
                 <div class="row">
 
-                    <div class="col-md-3 col-lg-2 col-xl-2">
+                    <div class="col-md-3 col-lg-3 col-xl-2 profile">
                         <!-- Profile Sidebar -->
-                        <div class="profile-sidebar">
+                        <div class="profile-sidebar theiaStickySidebar">
                             <div class="widget-profile pro-widget-content">
                                 <div class="profile-info-widget">
                                     <a href="#" class="booking-doc-img">
-                                        <img class="img-responsive" src="./img-01.jpg" alt="User Image">
+                                        <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
                                     </a>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="dashboard-widget">
                                 <nav class="dashboard-menu">
                                     <ul>
@@ -94,24 +139,20 @@
                                                 <span>Shop Products</span>
                                             </a>
                                         </li>
+                                       
                                         <li>
-                                            <a href="#">
+                                            <a href="faqs.html">
                                                 <span>FAQ</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="document-manager.html">
                                                 <span>Document Manager</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="my-account.html">
                                                 <span>My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>EpicHome</span>
                                             </a>
                                         </li>
                                         <li>
@@ -126,7 +167,7 @@
                                 </nav>
                             </div>
                         </div>
-
+                        <!-- /Profile Sidebar -->
                     </div>
                     <div class="col-md-9 col-lg-10 col-xl-10">
                         <div class="row">
@@ -134,71 +175,71 @@
                                 <div class="justify-content-center">
                                     <h1>Telewellnes</h1>
                                     <div class="row">
-                                        <div class="col-md-6 col-xl-6">
+                                        <div class="col-6 col-sm-6 col-md-6 col-xl-6">
                                             <div class="card">
                                                 <div class="card-body">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-md-6 col-xl-4 col-without-padding">
+                                                    <div class="row">
+                                                        <div class="col-6 col-sm-6 col-md-4 col-xl-4 col-without-padding ">
                                                             <img src="../assets/img/talk_to.png" class="img-responsive">
                                                         </div>
-                                                        <div class="col-md-6 col-xl-8">
+                                                        <div class="col-6 col-sm-6 col-md-8 col-xl-8 col-without-padding align-self-center col-margin">
                                                             <div class="row justify-content-center">
                                                                 <h6 class="title-card-service">Mental Health Theraphy</h6>
                                                             </div>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-xl-6">
+                                        <div class="col-6 col-sm-6 col-md-6 col-xl-6">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4 col-without-padding">
+                                                        <div class="col-6 col-sm-6 col-md-4 col-xl-4 col-without-padding ">
                                                             <img src="../assets/img/diet.png"
                                                                 class="img-responsive">
                                                         </div>
-                                                        <div class="col-md-6 col-xl-8">
-                                                            <div class="row justify-content-center"> 
-                                                                <h6 class="title-card-service">Diet & Nutrition Counseling</h6></div>
-                                                            
+                                                        <div class="col-6 col-sm-6 col-md-8 col-xl-8 col-without-padding align-self-center col-margin">
+                                                            <div class="row justify-content-center">
+                                                                <h6 class="title-card-service">Diet & Nutrition Counseling</h6>
+                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-xl-6">
+                                        <div class="col-6 col-sm-6 col-md-6 col-xl-6">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4 col-without-padding">
+                                                        <div class="col-6 col-sm-6 col-md-4 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/add_family.png"
                                                                 class="img-responsive">
                                                         </div>
-                                                        <div class="col-md-6 col-xl-8">
+                                                        <div class="col-6 col-sm-6 col-md-8 col-xl-8 col-without-padding align-self-center col-margin">
                                                             <div class="row justify-content-center">
                                                                 <h6 class="title-card-service">Add a Family Member</h6>
                                                             </div>
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-xl-6">
+                                        <div class="col-6 col-sm-6 col-md-6 col-xl-6">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col-md-6 col-xl-4 col-without-padding">
+                                                        <div class="col-6 col-sm-6 col-md-4 col-xl-4 col-without-padding">
                                                             <img src="../assets/img/medical_record.png"
                                                                 class="img-responsive">
                                                         </div>
-                                                        <div class="col-md-6 col-xl-8">
+                                                        <div class="col-6 col-sm-6 col-md-8 col-xl-8 col-without-padding align-self-center col-margin">
                                                             <div class="row justify-content-center">
-                                                                <h6 class="title-card-service"> Access Medical Record</h6>
+                                                                <h6 class="title-card-service"> Access Medical Record
+                                                                </h6>
                                                             </div>
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -415,7 +456,7 @@
     <!-- Custom JS -->
     <script src="../assets/js/script.js"></script>
     <!-- Custom JS -->
-    <script src="../assets/js/script.js"></script>
+    <script src="../js/open-sidenav.js"></script>
 </body>
 
 </html>

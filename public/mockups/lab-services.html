@@ -35,177 +35,223 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/responsive_lab_services.css">
+    <link rel="stylesheet" href="../css/responsive_customer.css">
 </head>
 
 <body style="background-color: #e7e8e9;" class="home">
 
-    <header class="header">
-        <nav class="navbar justify-content-end">
-            <div class="row">
-                <form>
-                    <div class="input-group">
-                        <input type="text" placeholder="Search..." class="form-control">
+    <div>
+        <div id="mySidenav" class="sidenav">
+            <div class="sidenav2">
+                <div class="sidenav3">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="widget-profile pro-widget-content">
+                        <div class="profile-info-widget">
+                            <a href="#" class="booking-doc-img">
+                                <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
+                            </a>
+                        </div>
                     </div>
-                </form>
-                <div class="btn-group">
-                    <a class="icon"> <img src="../assets/fonts/shopping-cart.svg" alt="Logo" class="logo-img"></a>
-                    <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
-                    <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
+                    <a href="#">
+                        <span>Services</span>
+                    </a>
+    
+                    <a href="#">
+                        <span>Shop Products</span>
+                    </a>
+    
+                    <a href="faqs.html">
+                        <span>FAQ</span>
+                    </a>
+    
+                    <a href="document-manager.html">
+                        <span>Document Manager</span>
+                    </a>
+    
+                    <a href="my-account.html">
+                        <span>My Account</span>
+                    </a>
+    
+                    <a href="#">
+                        <span>EpicHome</span>
+                    </a>
+                    <a> <span class="fas fa-sign-out-alt"></i></a>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid minibanner">
-        <div class="row justify-content-center bg-secondary rounded">
-            <h6 class="text-white">Covid-19 updates</h6>
+    
         </div>
-    </div>
-
-    <!-- Main Wrapper -->
-    <div class="main-wrapper">
-
-        <!-- Page Content -->
-        <div class="content">
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col-md-3 col-lg-2 col-xl-2">
-                        <!-- Profile Sidebar -->
-                        <div class="profile-sidebar">
-                            <div class="widget-profile pro-widget-content">
-                                <div class="profile-info-widget">
-                                    <a href="#" class="booking-doc-img">
-                                        <img class="img-responsive" src="./img-01.jpg" alt="User Image">
-                                    </a>
-                                </div>
+        <div class="wrapper">
+            <header class="header">
+                <nav class="navbar justify-content-end" id="myTopnav">
+                    <div class="row">
+                        <a href="javascript:void(0);" class="icon-burguer" onclick="openNav()">
+                            <i class="fa fa-bars fa-3x"></i>
+                        </a>
+                        <img src="../assets/img/logo_EPIQMD.png" class="icon-epiqmd">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" placeholder="Search..." class="form-control">
                             </div>
-                            <div class="dashboard-widget">
-                                <nav class="dashboard-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span>Services</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Shop Products</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>FAQ</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Document Manager</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>EpicHome</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>EpicHome</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a> <span class="fas fa-sign-out-alt"></i></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
+                        </form>
+                        <div class="btn-group">
+                            <a class="icon first"> <img style="fill: white;" src="../assets/fonts/shopping-cart.svg"
+                                    alt="Logo" class="logo-img"></a>
+                            <a class="icon"><img src="../assets/fonts/user.svg" alt="Logo" class="logo-img"></img></a>
+                            <a class="icon"><img src="../assets/fonts/alarm.svg" alt="Logo" class="logo-img"></img></a>
                         </div>
-
+    
                     </div>
-                    <div class="col-md-9 col-lg-10 col-xl-10">
-                        <h1 style="font-size: 3rem; text-align: center;">Lab Services </h1>
-                        <div>
-                            <ul class="nav nav-tabs nav-tabs-bottom">
-                                <li class="nav-item"><a class="nav-link active custom-nav-link"
-                                        href="#top-justified-tab1" data-toggle="tab">Order Panels</a></li>
-                                <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
-                                        data-toggle="tab">Lab Results</a></li>
-                            </ul>
-                            <div class="tab-content" style="background-color: white;">
-                                <div class="tab-pane show active" id="top-justified-tab1">
-                                    <div class="row">
-                                        <div class="col-md-4 col-lg-4">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <h3 style="text-align: center;">Choose Your Lab</h3>
-                                                                <select id="inputGender" class="form-control">
-                                                                    <option selected></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
+    
+                </nav>
+            </header>
+    
+            <div class="container-fluid minibanner hide">
+                <div class="row justify-content-center bg-secondary rounded">
+                    <h6 class="text-white">Covid-19 updates</h6>
+                </div>
+            </div>
+            <div class="main-wrapper">
+    
+                <!-- Page Content -->
+                <div class="content">
+                    <div class="container-fluid">
+    
+                        <div class="row">
+    
+                            <div class="col-md-3 col-lg-3 col-xl-2 profile">
+                                <!-- Profile Sidebar -->
+                                <div class="profile-sidebar theiaStickySidebar">
+                                    <div class="widget-profile pro-widget-content">
+                                        <div class="profile-info-widget">
+                                            <a href="#" class="booking-doc-img">
+                                                <img class="img-responsive" src="../assets/img/face.png" alt="User Image">
+                                            </a>
                                         </div>
-                                        <div class="col-md-4 col-lg-4">
-                                            <div class="card card-disabled-1">
-                                                <div class="card-body">
-                                                    <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <h3 style="text-align: center;">Select Your Text</h3>
-                                                                <select id="inputGender" class="form-control">
-                                                                    <option selected></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-lg-4">
-                                            <div class="card card-disabled-2">
-                                                <div class="card-body">
-                                                    <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <h3 style="text-align: center;">Pick Your Place</h3>
-                                                                <select id="inputGender" class="form-control">
-                                                                    <option selected></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
+                                    </div>
+                                    <div class="dashboard-widget">
+                                        <nav class="dashboard-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <span>Services</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span>Shop Products</span>
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="faqs.html">
+                                                        <span>FAQ</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="document-manager.html">
+                                                        <span>Document Manager</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="my-account.html">
+                                                        <span>My Account</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span>EpicHome</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a> <span class="fas fa-sign-out-alt"></i></a>
+                                                </li>
+                                            </ul>
+                                        </nav>
                                     </div>
                                 </div>
-                                <div class="tab-pane" id="top-justified-tab2">
-                                    Tab content 2
-                                </div>
-
-                                <div class="tab-pane" id="top-justified-tab3">
-                                    Tab content 3
+                                <!-- /Profile Sidebar -->
+                            </div>
+                            <div class="col-md-9 col-lg-10 col-xl-10">
+                                <h1 style="font-size: 3rem; text-align: center;">Lab Services </h1>
+                                <div>
+                                    <ul class="nav nav-tabs nav-tabs-bottom">
+                                        <li class="nav-item"><a class="nav-link active custom-nav-link"
+                                                href="#top-justified-tab1" data-toggle="tab">Order Panels</a></li>
+                                        <li class="nav-item custom-nav-link"><a class="nav-link " href="#top-justified-tab2"
+                                                data-toggle="tab">Lab Results</a></li>
+                                    </ul>
+                                    <div class="tab-content" style="background-color: white;">
+                                        <div class="tab-pane show active" id="top-justified-tab1">
+                                            <div class="row">
+                                                <div class="col-md-4 col-lg-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <form action="">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <h3 style="text-align: center;">Choose Your Lab</h3>
+                                                                        <select id="inputGender" class="form-control">
+                                                                            <option selected></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-lg-4">
+                                                    <div class="card card-disabled-1">
+                                                        <div class="card-body">
+                                                            <form action="">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <h3 style="text-align: center;">Select Your Text
+                                                                        </h3>
+                                                                        <select id="inputGender" class="form-control">
+                                                                            <option selected></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-lg-4">
+                                                    <div class="card card-disabled-2">
+                                                        <div class="card-body">
+                                                            <form action="">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <h3 style="text-align: center;">Pick Your Place</h3>
+                                                                        <select id="inputGender" class="form-control">
+                                                                            <option selected></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="top-justified-tab2">
+                                            Tab content 2
+                                        </div>
+    
+                                        <div class="tab-pane" id="top-justified-tab3">
+                                            Tab content 3
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+    
                     </div>
                 </div>
-
+    
             </div>
         </div>
-
     </div>
     <!-- /Page Content -->
     <!-- /Footer -->
@@ -235,7 +281,7 @@
     <!-- Custom JS -->
     <script src="../assets/js/script.js"></script>
     <!-- Custom JS -->
-    <script src="../assets/js/script.js"></script>
+    <script src="../js/open-sidenav.js"></script>
 </body>
 
 </html>
