@@ -1,0 +1,29 @@
+.opportunity-banner{
+    background-image: url('../mockups/ambassador/image\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px!important;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  #25b492;
+    display: block;
+}
+
+.opportunity--container-banner{
+    width: 100%;
+    padding-right: 25%;
+    padding-left: 5%;
+    
+}
+
+.opportunity--container-banner-2{
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 5%;
+    color: white;
+}

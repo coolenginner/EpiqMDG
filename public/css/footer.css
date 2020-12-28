@@ -1,0 +1,17 @@
+footer .row div h6{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    display: inline;
+    font-family: Quicksand;
+}
+
+.col-12.col-md-3 a, .col-12.col-md-2 a{
+    text-decoration: none;
+    font-family: Quicksand;
+    background-color: transparent;
+    color: #6c757d;
+}
+
+.footer-info p:first-child{
+    display: inline;
+}
