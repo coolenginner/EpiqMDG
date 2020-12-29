@@ -14,6 +14,55 @@
     display: block;
 }
 
+h2{
+    font-weight: 500!important;
+}
+
+.opportunity-banner div h1{
+    font-weight: 700!important;
+}
+
+.opportunity--container-banner h2, .opportunity--container-banner h2 {
+    color: #25b492;
+}
+
+
+.opportunity--container-banner a:first-child{
+    font-size: 2rem;
+    color:deepskyblue;
+   
+}
+
+.opportunity--container-banner a:first-child{
+    color:dodgerblue;
+}
+
+.opportunity--container-banner div a.btn-ambassador-success{
+    margin: 10px 40%; color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+p a {
+    text-decoration: underline;
+    color: white;
+}
+
+p a:hover {
+    color: lightgray;
+}
+  .centersafsgdag {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .opportunity--container-banner{
     width: 100%;
     padding-right: 25%;
