@@ -1,0 +1,74 @@
+.banner{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 550px;
+    padding-top: 5%;
+    margin-bottom: 0px!important;
+}
+
+.banner::after{
+    content: "";
+    margin-top: 4rem;
+    height: 50px;
+    background-color:  #25b492;
+    display: block;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center; 
+    font-weight: 700!important;
+}
+
+.article-make-simple--container h4{
+    font-size: 3rem;
+    font-weight: 100!important;
+    margin-left: 10%;
+}
+
+.article-make-simple--container p{
+    font-size: 2rem;
+    margin-left: 11%;
+}
+.ambassador-container-toolbar div h4 {
+ color: #25b492;
+}
+.form-control.form-control-sm.ml-3.w-75{
+    font-size: 1.5rem;
+    margin: 1rem 0px;
+    border-color: #25b492;
+    border-radius: 25px;
+}
+
+.form-control.form-control-sm.ml-3.w-75:focus { 
+    outline: none !important;
+    border-color: #25b492;
+    box-shadow: 0 0 10px #25b492;
+}
+
+.article-make-simple--container{
+    color: white;
+    padding: 5%;
+}
+
+.ambassador-container-toolbar{
+    padding: 0% 15% 0% 25% !important;
+}
+
+.ambassador-container-toolbar div h4 {
+    text-align:center;
+}
+
+.ambassador-container-toolbar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .ambassador-container-toolbar div:nth-child(5) img { 
+      height: 78px;
+  }

@@ -1,0 +1,21 @@
+.bg-ambassador-primary{
+    background-color:  #25b492;
+}
+
+.bg-ambassador-gray{
+    background-color:#58585a;
+}
+
+.btn-ambassador-success{
+    background-color:#25b492;
+    border-color: #25b492;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-ambassador-success:hover{
+    background-color:#25b492;
+    border-color: #25b492;
+    color: white;
+    border-radius: 25px;
+}
