@@ -1,3 +1,18 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  .center-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+  }
+  
+  
 .bg-ambassador-primary{
     background-color:  #25b492;
 }
@@ -10,6 +25,8 @@
     background-color:#25b492;
     border-color: #25b492;
     color: white;
+    padding: 20px;
+    font-size: 1.2rem;
     border-radius: 25px;
 }
 
@@ -18,4 +35,24 @@
     border-color: #25b492;
     color: white;
     border-radius: 25px;
+}
+
+.btn-ambassador-light{
+    background-color: white;
+    border-color:  white;
+    color: #58585a!important;
+    border-radius: 25px;
+    width: 25%;
+    margin-left: 33%;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+
+.btn-ambassador-light:hover{
+    background-color: white;
+    border-color:  white;
+    color: #58585a!important;
+    border-radius: 25px;
+
 }
