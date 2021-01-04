@@ -15,6 +15,49 @@
     display: block;
 }
 
+.box-title{
+    padding: 25px;
+}
+
+.title h2 button.btn {
+    border-bottom: 1.2px solid lightgray;
+}
+
+.help .row:nth-child(even){
+background-color:#606060;
+}
+
+.help .row:nth-child(even) div div div
+{   color: white;
+    background-color:#606060;
+    }
+
+    .help .row:nth-child(even) div div div h2 button{  
+         color: white;
+    }
+
+    .help .row:nth-child(even) div h2 { 
+          color: white;
+        }
+
+.accordion::after{
+    content: "";
+    height: 25px;
+    display: block;
+}
+
+.accordion::before{
+    content: "";
+    height: 25px;
+    display: block;
+}
+.help{
+    padding: 0px 5%;
+}
+.banner-faq div h1{
+    color: white;
+}
+
 .icon-green{
     color: #25b492;
 }

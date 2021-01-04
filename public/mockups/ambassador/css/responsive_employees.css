@@ -1,0 +1,47 @@
+.employees-banner{
+    background-image: url('../img/employee_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px!important;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  #25b492;
+    display: block;
+}
+
+.banner div div h1{
+    color:white;
+}
+
+
+.banner div div h5{
+    color:white;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: right;
+} 
+
+.program h1 {
+
+}
+
+.healthcare img {
+    width: 100%;
+    height: auto;
+}
+
+.center-without-height{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #25b492;
+}

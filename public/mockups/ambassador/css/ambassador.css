@@ -28,6 +28,7 @@
     padding: 20px;
     font-size: 1.2rem;
     border-radius: 25px;
+    width: fit-content;
 }
 
 .btn-ambassador-success:hover{
