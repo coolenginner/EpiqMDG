@@ -1,9 +1,35 @@
+:root {
+   --green:#25b492;
+   --gray:#58585a;
+   --bgGray::#606060;
+   --tittleGray:#3a3a3c;
+   --subtittleGray:#5c5b5d;
+   --lightGray: #6d6e71;
+   --linkGray: #6c757d;
+   --darkWhite:#f3f3f4;
+}
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
   }
+.custom-banner{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px!important;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
 
   .center-left {
     display: flex;
@@ -11,19 +37,25 @@
     align-items: center;
     height: 500px;
   }
+  .center-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 500px;
+  }
   
   
 .bg-ambassador-primary{
-    background-color:  #25b492;
+    background-color: var(--green);
 }
 
 .bg-ambassador-gray{
-    background-color:#58585a;
+    background-color:var(--gray);
 }
 
 .btn-ambassador-success{
-    background-color:#25b492;
-    border-color: #25b492;
+    background-color:var(--green);
+    border-color:var(--green);
     color: white;
     padding: 20px;
     font-size: 1.2rem;
@@ -32,8 +64,8 @@
 }
 
 .btn-ambassador-success:hover{
-    background-color:#25b492;
-    border-color: #25b492;
+    background-color:var(--green);
+    border-color:var(--green);
     color: white;
     border-radius: 25px;
 }
@@ -41,7 +73,7 @@
 .btn-ambassador-light{
     background-color: white;
     border-color:  white;
-    color: #58585a!important;
+    color: var(--gray)!important;
     border-radius: 25px;
     width: 25%;
     margin-left: 33%;
@@ -53,7 +85,7 @@
 .btn-ambassador-light:hover{
     background-color: white;
     border-color:  white;
-    color: #58585a!important;
+    color: var(--gray)!important;
     border-radius: 25px;
 
 }

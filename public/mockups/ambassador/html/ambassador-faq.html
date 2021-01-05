@@ -60,7 +60,7 @@
 
         <main>
             <article class="banner">
-                <div class="jumbotron jumbotron-fluid banner-faq center">
+                <div class="jumbotron jumbotron-fluid custom-banner banner-faq center">
                     <div class="container d-flex align-items-center" style="flex-direction: column!important;">
                         <h1 class="display-4">Frequently Asked Questions</h1>
                         <button class="btn btn-ambassador-light">Get Started</button>
@@ -588,25 +588,8 @@
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/all.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.collapse')
-                    .on('shown.bs.collapse', function () {
-                        $(this)
-                            .parent()
-                            .find(".fa-plus")
-                            .removeClass("fa-plus")
-                            .addClass("fa-minus");
-                    })
-                    .on('hidden.bs.collapse', function () {
-                        $(this)
-                            .parent()
-                            .find(".fa-minus")
-                            .removeClass("fa-minus")
-                            .addClass("fa-plus");
-                    });
-            });
-        </script>
+        <script src="../js/change_icon.js"></script>
+        
 
     </body>
 </body>

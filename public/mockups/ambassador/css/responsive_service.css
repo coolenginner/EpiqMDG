@@ -1,0 +1,28 @@
+.service-banner{
+    background-image: url('../img/service_bg.png');
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color: var(--green);
+    display: block;
+}
+
+.banner div div h1{
+    color:white;
+}
+
+.end {
+    position:relative;
+}
+
+.end div{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+.telemedicine-banner {
+    background-color: var(--darkWhite);
+}

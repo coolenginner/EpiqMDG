@@ -1,10 +1,6 @@
 .about-us-banner{
     background-image: url('../img/about_us_bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 500px;
-    margin-bottom: 0px!important;
+   
 }
 
 .about-us-banner .container h1 {
@@ -15,7 +11,7 @@
 .about-us-banner .container h1 span {
     font-size: 5rem;
     font-weight: 600;
-    color: #25b492;
+    color:var(--green);
 }
 
 .d-flex{
@@ -31,6 +27,6 @@ article img {
 .banner::after{
     content: "";
     height: 50px;
-    background-color:  #25b492;
+    background-color: var(--green);
     display: block;
 }

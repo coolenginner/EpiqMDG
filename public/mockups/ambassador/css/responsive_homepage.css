@@ -4,7 +4,7 @@
 }
 
 .container_main_services h1{
-   color: #25b492;
+   color: var(--green);
    font-size: 5.5rem;
    font-weight: 400;
    text-align: center;
@@ -75,11 +75,6 @@
 
 .main-service-banner{
     background-image: url('../img/home_bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 500px;
-    margin-bottom: 0px!important;
 }
 
 .main-service-banner .container h1 {
@@ -90,12 +85,5 @@
 .main-service-banner .container h1 span {
     font-size: 5rem;
     font-weight: 600;
-    color: #25b492;
-}
-
-.banner::after{
-    content: "";
-    height: 50px;
-    background-color:  #25b492;
-    display: block;
+    color: var(--green);
 }

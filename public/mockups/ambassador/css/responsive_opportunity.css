@@ -1,10 +1,5 @@
 .opportunity-banner{
     background-image: url('../img/opportunity_banner_bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 500px;
-    margin-bottom: 0px!important;
 }
 
 .icon-image{
@@ -17,7 +12,7 @@
 .banner::after{
     content: "";
     height: 50px;
-    background-color:  #25b492;
+    background-color:  var(--green);;
     display: block;
 }
 
@@ -30,7 +25,7 @@ h2{
 }
 
 .opportunity--container-banner h2, .opportunity--container-banner h2 {
-    color: #25b492;
+    color: var(--green);;
 }
 
 
@@ -85,5 +80,5 @@ p a:hover {
 }
 
 .bg-secondary{
-    background-color: #6d6e71!important;
+    background-color: var(--lightGray)!important;
 }

@@ -1,19 +1,3 @@
-.banner{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 550px;
-    padding-top: 5%;
-    margin-bottom: 0px!important;
-}
-
-.banner::after{
-    content: "";
-    margin-top: 4rem;
-    height: 50px;
-    background-color:  #25b492;
-    display: block;
-}
 
 h1{
     font-size: 4rem;
@@ -32,19 +16,19 @@ h1{
     margin-left: 11%;
 }
 .ambassador-container-toolbar div h4 {
- color: #25b492;
+ color: var(--green);
 }
 .form-control.form-control-sm.ml-3.w-75{
     font-size: 1.5rem;
     margin: 1rem 0px;
-    border-color: #25b492;
+    border-color: var(--green);
     border-radius: 25px;
 }
 
 .form-control.form-control-sm.ml-3.w-75:focus { 
     outline: none !important;
-    border-color: #25b492;
-    box-shadow: 0 0 10px #25b492;
+    border-color: var(--green);
+    box-shadow: 0 0 10px var(--green);
 }
 
 .article-make-simple--container{

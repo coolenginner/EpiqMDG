@@ -1,16 +1,11 @@
 .employees-banner{
     background-image: url('../img/employee_bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 500px;
-    margin-bottom: 0px!important;
 }
 
 .banner::after{
     content: "";
     height: 50px;
-    background-color:  #25b492;
+    background-color:  var(--green);
     display: block;
 }
 
@@ -27,10 +22,6 @@
     text-align: right;
 } 
 
-.program h1 {
-
-}
-
 .healthcare img {
     width: 100%;
     height: auto;
@@ -43,5 +34,5 @@
 }
 
 .form {
-    background-color: #25b492;
+    background-color: var(--green);
 }

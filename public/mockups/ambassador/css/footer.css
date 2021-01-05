@@ -9,7 +9,7 @@ footer .row div h6{
     text-decoration: none;
     font-family: Quicksand;
     background-color: transparent;
-    color: #6c757d;
+    color: var(--linkGray);
 }
 
 .footer-info p:first-child{

@@ -10,12 +10,12 @@
 .banner::after{
     content: "";
     height: 50px;
-    background-color:  #25b492;
+    background-color:  var(--green);
     display: block;
 }
 
 h1{
-    color:#25b492 ;
+    color:var(--green) ;
 }
 
 .status{

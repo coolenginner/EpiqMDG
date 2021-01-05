@@ -1,0 +1,21 @@
+.what-we-threat-banner{
+    background-image: url('../img/what_we_threat_bg.png');
+}
+
+.what-we-threat-banner .container h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-align: right;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
+.card-body div div ul{
+    list-style-type: none;
+}
