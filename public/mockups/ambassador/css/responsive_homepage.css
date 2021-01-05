@@ -1,0 +1,101 @@
+.container_main_services{
+    background-color:#f3f3f4;
+    padding: 3% 8%;
+}
+
+.container_main_services h1{
+   color: #25b492;
+   font-size: 5.5rem;
+   font-weight: 400;
+   text-align: center;
+}
+
+.container_main_services .services-paragraph{
+    color: #3a3a3c;
+    font-size: 2.5rem;
+    padding-left: 2%;
+}
+
+.container_main_services .services-subparagraph{
+    color: #5c5b5d;
+    font-size: 2rem;
+    padding-left: 2%;
+}
+.container_main_services div .col-md-3{
+    margin-top: 8%;
+}
+
+.container_main_services div .col-md-3 div p{
+    color: #5c5b5d;
+}
+
+.container_main_services div .col-md-3 div h4{
+    color: #3a3a3c;
+}
+
+.container_main_services div .col-md-3 div:nth-child(1) { 
+    margin-bottom: 20%;
+}
+
+.container_main_services div .col-md-3 div:nth-child(2) { 
+    margin-top: 25%;
+    margin-bottom:45%;
+}
+
+
+.opportunity--container-banner{
+    width: 100%;
+    padding-right: 25%;
+    padding-left: 5%;
+    
+}
+
+.opportunity--container-banner-2{
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 5%;
+    color: white;
+}
+
+.icon-image{
+    margin-top: 15%;
+    width: 90%;
+    height: 100%;
+    max-height: 100px;
+}
+
+.main-service-left div:nth-child(3) { 
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+.main-service-right div p { 
+    text-align: end;
+}
+
+.main-service-banner{
+    background-image: url('../img/home_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px!important;
+}
+
+.main-service-banner .container h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.main-service-banner .container h1 span {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #25b492;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  #25b492;
+    display: block;
+}
