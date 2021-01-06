@@ -7,7 +7,10 @@
     padding: 25px;
 }
 
-.title h2 button.btn {
+.title h5{
+    padding: 1rem 0px;
+    font-weight: 300;
+    font-size: 1rem;
     border-bottom: 1.2px solid lightgray;
 }
 
@@ -28,6 +31,7 @@ background-color:#606060;
           color: white;
         }
 
+
 .accordion::after{
     content: "";
     height: 25px;
@@ -46,9 +50,6 @@ background-color:#606060;
     color: white;
 }
 
-.icon-green{
-    color: var(--green);
-}
 
 .title{
     background-color: white;
@@ -60,4 +61,27 @@ background-color:#606060;
 
 .title button i{
     float: right;
+}
+
+.icon-white, .icon-green{
+    position: absolute;
+    right: 2%;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .accordion::before {
+        height: 0px!important; 
+   }
+   
+   .box-title {
+       padding-bottom: 0px;
+   }
+
+   .btn-ambassador-light {
+       width: 40%!important;
+   }
 }

@@ -2,17 +2,21 @@
     background-image: url('../img/employee_bg.png');
 }
 
-.banner::after{
-    content: "";
-    height: 50px;
-    background-color:  var(--green);
-    display: block;
+.custom-banner .container{
+    margin-top: -5%;
+}
+
+.custom-banner .container h5{
+    margin-bottom: 1%;
+}
+
+.program .row div p:nth-child(1){ 
+    margin-bottom: 8%;
 }
 
 .banner div div h1{
     color:white;
 }
-
 
 .banner div div h5{
     color:white;
@@ -27,6 +31,14 @@
     height: auto;
 }
 
+.program::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
+
 .center-without-height{
     display: flex;
     justify-content: center;
@@ -35,4 +47,206 @@
 
 .form {
     background-color: var(--green);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+    .program h1{
+        padding: 0% 0% 0% 3%;
+        color: var(--green);
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    article div  {
+        padding: 0% 0% 0% 3%;
+    }
+
+    
+    .program h4{
+        padding-left: 3%;
+    }
+
+
+    .d-flex.justify-content-center .btn-ambassador-success{
+        margin-bottom: 5%;
+    }
+
+    .healthcare div p {
+        padding: 1% 10% 0% 10% ;
+        text-align: center;
+    }
+
+    .healthcare {
+        margin: 30px 0px;
+    }
+
+        #contact-button {
+            width: 40% !important;
+            padding: 10px 5px !important;
+            margin-bottom: 1rem;
+    }
+
+    form {
+        padding: 5% ;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .program h1{
+        padding: 0% 0% 0% 3%;
+        color: var(--green);
+        font-size: 3.4rem;
+        font-weight: 600;
+    }
+
+    article div  {
+        padding: 0% 0% 0% 3%;
+    }
+
+    
+    .program h4{
+        padding-left: 3%;
+    }
+
+    .d-flex.justify-content-center .btn-ambassador-success{
+        margin-bottom: 5%;
+    }
+
+    .healthcare div p {
+        padding: 1% 15% 0% 15% ;
+        text-align: center;
+    }
+
+    .healthcare {
+        margin: 30px 0px;
+    }
+
+
+    
+    form {
+        padding: 5% 10% 5% 10% ;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .program h1{
+        color: var(--green);
+        font-size: 3.8rem;
+        font-weight: 600;
+    }
+
+    article div  {
+        padding: 0% 0% 0% 3%;
+    }
+
+    
+    .program h4{
+        padding-left: 3%;
+    }
+
+        
+    .healthcare div p {
+        padding: 1% 15% 0% 15% ;
+        text-align: center;
+    }
+
+    .healthcare {
+        margin: 30px 0px;
+    }
+
+    form {
+        padding: 5% 15% 5% 15% ;
+    }
+
+    .btn-ambassador-light {
+        margin-left: 38%;
+    }
+
+    form div div:nth-child(7) label{ 
+        margin-bottom: 2rem;
+    }
+
+    #contact-button {
+        padding: 10px 15px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .program h1{
+        color: var(--green);
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    article div  {
+        padding: 0% 0% 0% 3%;
+    }
+
+    
+    .program h4{
+        padding-left: 3%;
+    }
+
+        
+    .healthcare div p {
+        padding: 1% 30% 0% 30% ;
+        text-align: center;
+    }
+
+    .healthcare {
+        margin: 30px 0px;
+    }
+
+    form {
+        padding: 5% 15% 5% 10% ;
+    }
+
+    .btn-ambassador-light {
+        margin-left: 40%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    article div  {
+        padding: 0% 0% 0% 3%;
+    }
+
+    .program h1{
+        color: var(--green);
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+
+    .program h4{
+        padding-left: 3%;
+    }
+
+    
+    .healthcare div p {
+        padding: 1% 30% 0% 30% ;
+        text-align: center;
+    }
+
+    .healthcare {
+        margin: 30px 0px;
+    }
+
+    form {
+        padding: 5% 15% 5% 15% ;
+    }
+
+    .btn-ambassador-light {
+        margin-left: 38%;
+    }
 }

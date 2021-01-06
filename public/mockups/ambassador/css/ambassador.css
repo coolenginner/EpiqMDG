@@ -93,3 +93,26 @@
 .navbar-nav .nav-item {
     text-align: center;
 }
+
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.form-control {
+    border-radius: 25px!important;
+}
+
+label {
+    color: white;
+    padding: 0% 4%;
+}
+
+.icon-green{
+    color: var(--green);
+}
+
+.icon-white{
+    color: white;
+}
