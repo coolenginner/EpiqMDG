@@ -135,7 +135,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:991px){
 
     .program h1{
         color: var(--green);
@@ -213,6 +213,7 @@
     .btn-ambassador-light {
         margin-left: 40%;
     }
+
 
 }
 

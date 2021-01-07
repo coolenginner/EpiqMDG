@@ -53,6 +53,10 @@
     background-color:var(--gray);
 }
 
+.special-link{
+    color: var(--darkWhite);
+    text-decoration: underline;
+}
 .btn-ambassador-success{
     background-color:var(--green);
     border-color:var(--green);
@@ -96,7 +100,6 @@
 
 
 article img {
-    width: 100%;
     height: auto;
 }
 
@@ -116,3 +119,7 @@ label {
 .icon-white{
     color: white;
 }
+
+.vertical-center {
+    margin-top:50%;
+  }

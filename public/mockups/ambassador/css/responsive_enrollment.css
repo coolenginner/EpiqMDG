@@ -11,3 +11,49 @@
     height: auto;
     border-radius: 50%;
 }
+
+.enrollment-article-sponsor--container {
+    padding: 5% 5% 2% 5%;
+}
+
+.enrollment-article-sponsor--info h3, .enrollment-article-sponsor--info h5 {
+    text-align: end;
+}
+
+.enrollment-article-sponsor--info h5 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.enrollment-article-sponsor--text p{
+    margin-top: 5%;
+    padding: 0px 15% 0px 10%;
+}
+
+.form {
+    padding: 5%;
+}
+
+.contact-us-link{
+    display: block; 
+    text-align: left;
+    color: white;
+    margin: 2% 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact-button {
+        width: 40% !important;
+        padding: 10px 5px !important;
+        margin-bottom: 1rem;
+}
+
+form {
+    padding: 5% ;
+}
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-ambassador-light {
+        margin-left: 38%;
+    }
+}

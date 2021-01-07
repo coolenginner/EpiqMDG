@@ -14,6 +14,14 @@
     display: block;
 }
 
+.banner-health-care .container .display-4{
+    padding: 0% 5%;
+    margin-left: 20%;
+}
+
+.banner-health-care .container .display-4{
+    margin-top: 20%;
+}
 h1{
     color:var(--green) ;
 }
@@ -43,4 +51,29 @@ h1{
 article img{
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-health-care .container .display-4{
+        padding: 0% 5%;
+        margin-left: 5%;
+    }
+    
+    .banner-health-care .container .display-4{
+        margin-top: 5%;
+    }
+
+    .status{
+        padding: 5%;
+    }
+
+    .status-right p{
+        text-align: left;
+    }
+
+    .status-right, .status-left {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
 }

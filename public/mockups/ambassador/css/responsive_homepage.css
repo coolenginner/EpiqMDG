@@ -1,8 +1,19 @@
+.btn-ambassador-success{
+    width: fit-content;
+    margin: 10px 5vw
+}
 .container_main_services{
     background-color:#f3f3f4;
     padding: 3% 8%;
 }
 
+.opportunity--article-info > a {
+    color: var(--lightGray);
+}
+
+.container_main_services .row {
+    padding-left: 2%;
+}
 .container_main_services h1{
    color: var(--green);
    font-size: 5.5rem;
@@ -22,7 +33,7 @@
     padding-left: 2%;
 }
 .container_main_services div .col-md-3{
-    margin-top: 8%;
+    margin-top: 4vh;
 }
 
 .container_main_services div .col-md-3 div p{
@@ -33,15 +44,15 @@
     color: #3a3a3c;
 }
 
-.container_main_services div .col-md-3 div:nth-child(1) { 
-    margin-bottom: 20%;
+.container_main_services div .col-md-3 div{
+    height: 18vh;
 }
 
-.container_main_services div .col-md-3 div:nth-child(2) { 
-    margin-top: 25%;
-    margin-bottom:45%;
-}
 
+.main-service-left div:nth-child(3) { 
+    margin-left: 20%;
+    margin-bottom: 2rem;
+}
 
 .opportunity--container-banner{
     width: 100%;
@@ -58,16 +69,15 @@
 }
 
 .icon-image{
-    margin-top: 15%;
-    width: 90%;
-    height: 100%;
+    width: 6vh;
+    height: 10vh;
     max-height: 100px;
 }
 
-.main-service-left div:nth-child(3) { 
-    margin-top: 50%;
-    margin-left: 30%;
+.opportunity--article-info .row{
+    min-height: 15vh;
 }
+
 
 .main-service-right div p { 
     text-align: end;
@@ -75,6 +85,13 @@
 
 .main-service-banner{
     background-image: url('../img/home_bg.png');
+}
+
+.bg-homepage {
+    background-image: url('../img/bg_homepage.png');
+    background-repeat: no-repeat;
+    background-size: 30% 50%;
+    background-position:right top;
 }
 
 .main-service-banner .container h1 {
@@ -86,4 +103,173 @@
     font-size: 5rem;
     font-weight: 600;
     color: var(--green);
+}
+
+.btn-ambassador-light {
+    margin-top: 3%!important;
+    margin-right: -4%;
+    float: right;
+}
+
+.opportunity--article-info .row div:nth-child(2){
+    padding-left: 5vh;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container_main_services div .col-md-3 div{
+        height: auto;
+    }
+    
+
+    .main-service-right div p {
+        text-align: left;
+    }
+
+    .hide{
+        display: none;
+    }
+    
+
+    .container_main_services div .col-md-3 div{
+        height: auto;
+    }
+    
+    .container_main_services div .col-md-3 div p{
+        font-size: 1rem;
+    }
+
+    .container_main_services div .col-md-3 div h4{
+        font-size: 1.3rem;
+    }
+
+    .bg-homepage {
+        background-size: 100% 50%;
+    }
+    
+    .btn-ambassador-light{
+        width: auto;
+        margin-left: 0%;
+        float: none;
+    }
+
+    .services-paragraph{
+        text-align: left;
+        font-size: 1.8rem!important;
+    }
+    .services-subparagraph {
+        font-size: 1.5rem!important;
+    }
+    .container_main_services h1 {
+        font-size: 4rem!important;
+    }
+
+    .vertical-center{
+        margin-top: 2vh;
+        margin-left: 2vw;
+    }
+
+    .main-service-left div:nth-child(3) { 
+        margin-left: 0%;
+        margin-bottom: 0rem;
+    }
+
+    .main-service-right{
+        margin-top: 0px!important;
+    }
+
+    .opportunity--container-banner-2 {
+        padding: 3% 8%;
+    }
+
+    .btn-ambassador-success{
+        width: 80%;
+        margin: 2vh 5%;
+    }
+
+    .opportunity--article-info .row .col-10{
+        padding-right: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .image-main-services{
+        margin-top: 2vh;
+    }
+    .container_main_services div .col-md-3 div{
+        height: 10vh;
+        font-size: 0.6rem;
+    }
+    
+    .container_main_services div .col-md-3 div p{
+        font-size: 0.6rem;
+    }
+
+    .container_main_services div .col-md-3 div h4{
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .container_main_services div .col-md-3 div{
+        height: 14vh;
+        font-size: 0.6rem;
+    }
+    
+    .container_main_services div .col-md-3 div p{
+        font-size: 0.6rem;
+    }
+
+    .container_main_services div .col-md-3 div h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    
+    .container_main_services div .col-md-3 div p{
+        font-size: 1rem;
+    }
+
+    .container_main_services div .col-md-3 div h4{
+        font-size: 1.2rem;
+    }
+
+    .main-service-left, .main-service-right{
+        margin-top: 10%;
+    }
+
+    .vertical-center {
+        margin-top: 2vh;
+        margin-left: 2vw;
+      }
+}
+
+@media only screen and (min-width: 2000px){
+
+    .hide{
+        max-width: 790px;
+    }
+    .container_main_services div .col-md-3 div{
+        height: 25vh;
+        font-size: 0.6rem;
+    }
+    
+    .container_main_services div .col-md-3 div p{
+        font-size: 1.5rem;
+    }
+
+    .container_main_services div .col-md-3 div h4{
+        font-size: 2.8rem;
+    }
+
+    .main-service-left, .main-service-right{
+        margin-top: 10vh;
+    }
 }
