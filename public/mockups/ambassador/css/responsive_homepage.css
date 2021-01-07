@@ -2,6 +2,11 @@
     width: fit-content;
     margin: 10px 5vw
 }
+
+.hide{
+    max-width: 790px;
+}
+
 .container_main_services{
     background-color:#f3f3f4;
     padding: 3% 8%;
@@ -232,7 +237,10 @@
 
 @media only screen and (min-width: 1200px){
 
-    
+    .container_main_services div .col-md-3 div{
+        height: 140px;
+        font-size: 0.6rem;
+    }
     .container_main_services div .col-md-3 div p{
         font-size: 1rem;
     }
@@ -242,7 +250,7 @@
     }
 
     .main-service-left, .main-service-right{
-        margin-top: 10%;
+        margin-top: 10vh!important;
     }
 
     .vertical-center {
@@ -253,9 +261,7 @@
 
 @media only screen and (min-width: 2000px){
 
-    .hide{
-        max-width: 790px;
-    }
+
     .container_main_services div .col-md-3 div{
         height: 25vh;
         font-size: 0.6rem;

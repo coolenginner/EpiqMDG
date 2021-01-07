@@ -2,6 +2,11 @@
     background-image: url('../img/opportunity_banner_bg.png');
 }
 
+.links{
+    color: var(--green)!important;
+}
+
+
 .icon-image{
     margin-top: 15%;
     width: 90%;
@@ -81,4 +86,135 @@ p a:hover {
 
 .bg-secondary{
     background-color: var(--lightGray)!important;
+}
+
+@media only screen and (max-width: 599px) {
+    .display-4{
+        text-align: center;
+    } 
+
+    .btn-ambassador-success{
+        margin: 5px!important;
+        align-self: center;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h2.display-4 {
+        font-size: 1.8rem;
+    }
+
+        
+    .lead{
+        font-size: 1.3rem;
+    }
+
+    .lead a{
+        font-size: 1.3rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h2.display-4  {
+        font-size: 2rem;
+    }
+
+    .btn-ambassador-success {
+        margin: 10px 2vw!important ;
+    }
+        
+    .lead{
+        font-size: 1.6rem;
+    }
+
+    .lead a{
+        font-size: 1.6rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4.5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h2.display-4  {
+        font-size: 2.3rem;
+    }
+
+
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h2.display-4  {
+        font-size: 2.75rem;
+    }
+
+    .lead{
+        font-size: 2rem;
+    }
+
+    .lead a{
+        font-size: 2rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
 }

@@ -1,5 +1,18 @@
+.links{
+    color: var(--green);
+}
+
 .main-service-banner{
     background-image: url('../img/main_service_1.png');
+}
+
+.btn-ambassador-light{
+    float: none!important;
+    width: fit-content;
+}
+
+.healthcare{
+    padding: 3% 8%;
 }
 
 .main-service-banner .container h1 {
@@ -70,4 +83,94 @@
 
 .healthcare .row div ul{
     font-size: 1.5rem;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4.5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h3 {
+        font-size: 2.3rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h3 {
+        font-size: 2.75rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
 }

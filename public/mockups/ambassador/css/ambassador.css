@@ -9,6 +9,9 @@
    --darkWhite:#f3f3f4;
 }
 
+.padding {
+    padding: 3% 8%;
+}
 .center {
     display: flex;
     justify-content: center;
