@@ -26,6 +26,10 @@
     margin-bottom: 0px!important;
 }
 
+.transparent {
+    background: rgba(255, 255, 255, 0.3)
+}
+
 .banner::after{
     content: "";
     height: 50px;

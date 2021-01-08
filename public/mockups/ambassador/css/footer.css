@@ -16,6 +16,20 @@ footer .row div h6{
     display: inline;
 }
 
+@media only screen and (max-width: 768px) {
+    footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+}
+
 
 @media only screen and (max-width: 1024px) {
     .footer-info{
@@ -32,12 +46,8 @@ footer {
     margin-top: 2rem;
 }
 
-footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center {
-    margin-top: 2vh;
-    display: flex;
-}
-
-footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center > img {
-    margin-left: auto;
-    margin-right: auto;
+body > footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.d-flex.justify-content-center > img {
+    margin-top: 5vh;
+    width:100px;
+    height: 100px;
 }
