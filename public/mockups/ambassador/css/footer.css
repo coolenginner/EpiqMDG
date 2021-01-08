@@ -31,3 +31,13 @@ footer {
 .footer-info{
     margin-top: 2rem;
 }
+
+footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center {
+    margin-top: 2vh;
+    display: flex;
+}
+
+footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center > img {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -7,7 +7,7 @@
 }
 
 .avatar {
-    width: 100px;
+    width: 35%;
     height: auto;
     border-radius: 50%;
 }
@@ -40,6 +40,16 @@
     margin: 2% 2%;
 }
 
+.enrollment-article-sponsor--info h3 {
+    margin-right: 2vw;
+}
+
+.enrollment-article-sponsor--info h3,.enrollment-article-sponsor--info h5  {
+    font-weight: 400;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     #contact-button {
         width: 40% !important;
@@ -50,10 +60,47 @@
 form {
     padding: 5% ;
 }
+
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .avatar {
+    width: 45%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .btn-ambassador-light {
         margin-left: 38%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .btn-ambassador-light {
+        margin-left: 38%;
+    }
+
+    .enrollment-article-sponsor--info h3 {
+        font-size: 4.5rem;
+    }
+
+    .enrollment-article-sponsor--info h5 {
+        font-size: 2.2rem;
+    }
+    
+    .enrollment-article-sponsor--text p{
+        font-size: 2rem;
+    }
+
+    form .form-row div label, form .form-row div input, .contact-us-link{
+        font-size: 2rem;
+    }
+
+    .display-4{
+        font-size: 7rem;
     }
 }

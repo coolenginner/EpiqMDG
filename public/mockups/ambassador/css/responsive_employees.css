@@ -2,12 +2,17 @@
     background-image: url('../img/employee_bg.png');
 }
 
-.custom-banner .container{
-    margin-top: -5%;
-}
-
 .custom-banner .container h5{
     margin-bottom: 1%;
+}
+
+.banner .employees-banner.center{
+    align-items: start!important;
+}
+
+
+.banner .employees-banner.center .container .display-4:nth-child(1){
+    margin-right: 5vw;
 }
 
 .program .row div p:nth-child(1){ 
@@ -43,6 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 2rem;
 }
 
 .form {
@@ -250,4 +256,11 @@
     .btn-ambassador-light {
         margin-left: 38%;
     }
+
+    
+.banner .employees-banner.center .container{
+    margin-left: 50vw;
+    margin-right: 5vw;
+}
+
 }
