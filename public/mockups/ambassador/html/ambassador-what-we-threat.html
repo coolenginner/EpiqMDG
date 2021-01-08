@@ -21,14 +21,17 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <a class="navbar-toggler" type="a" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                        <li class="nav-item my-auto mx-3 hide-not-responsive">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
                         <li class="nav-item active my-auto mx-3">
-                            <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">ABOUT</a>
                         </li>
                         <li class="nav-item my-auto mx-3">
                             <a class="nav-link" href="#">SERVICES</a>
@@ -36,12 +39,15 @@
                         <li class="nav-item my-auto mx-3">
                             <a class="nav-link" href="#">EMPLOYER PLANS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item hide-responsive">
                             <a class="nav-link" href="#"><img src="../img/EpiqMD_Logo.png" width="90px"
                                     height="auto"></a>
                         </li>
+                        <li class="nav-item mx-3 my-auto hide-not-responsive">
+                            <a class="nav-link" href="#">SIGN UP</a>
+                        </li>
                         <li class="nav-item my-auto mx-3">
-                            <a class="nav-link" href="#">LOGIN <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">LOGIN</a>
                         </li>
                         <li class="nav-item my-auto mx-3">
                             <a class="nav-link" href="#">SUPPORT</a>
@@ -50,13 +56,14 @@
                             <a class="nav-link" href="#">ESPAÑOL</a>
                         </li>
 
-                        <li class="nav-item my-auto">
+                        <li class="nav-item my-auto hide-responsive">
                             <a class="btn btn-ambassador-success" href="#">SIGN UP</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
+
 
         <main>
             <article class="banner">
@@ -66,21 +73,21 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <div>
+            <article class="expandable-info">
+                <div class="padding">
                     <h1>Telemedicine</h1>
                     <div class="accordion" id="accordionExample">
                         <div>
                             <div class="title" id="headingOne">
                                 <div class="row" data-toggle="collapse" data-target="#collapseOne">
-                                    <div class="col-12 col-md-10">
+                                    <div class="col-9 col-md-10">
                                         <h4>Primary Care Services </h4>
                                         <p>Our board-certified doctors can diagnoseyour symptoms, prescribe medication,
                                             and send prescriptions to a pharmacy of choice. Alternatively, you can take
                                             advantage of our wholesale program as well. We treat most non-emergency
                                             conditions such as:</p>
                                     </div>
-                                    <div class="col-12 col-md-2">
+                                    <div class="col-3 col-md-2">
                                         <i class="fas fa-plus icon-green fa-4x"></i>
                                     </div>
 
@@ -91,76 +98,66 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <div class="row justify-content-center">
-                                        <div>
-                                            <ul>
-                                                <li>Abdominal Pain / Cramps</li>
-                                                <li>Abcess</li>
-                                                <li>Acid Reflux </li>
-                                                <li>Allergies</li>
-                                                <li>Animal / Insect Bites</li>
-                                                <li>Arthritis</li>
-                                                <li>Asthma</li>
-                                                <li>Backache</li>
-                                                <li>Blood Pressure Issues</li>
-                                                <li>Bronchitis</li>
-                                                <li>Bowel / Digestive Issues</li>
-                                                <li>Cellulitus</li>
-                                                <li>Common Colds</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul>
-                                                <li>Constipation</li>
-                                                <li>Cough / Croup</li>
-                                                <li>Diarrhea</li>
-                                                <li>Dizziness</li>
-                                                <li>Eye Infection / Irritation</li>
-                                                <li>Fever</li>
-                                                <li>Flu</li>
-                                                <li>Gas &amp; Bloating</li>
-                                                <li>Gout</li>
-                                                <li>Headache / Migraine</li>
-                                                <li>Herpes</li>
-                                                <li>Joint Pain / Swelling</li>
-                                                <li>Laryngitis</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul>
-                                                <li>Pink Eye</li>
-                                                <li>Poison Ivy / Oak</li>
-                                                <li>Rash / Skin Injuries</li>
-                                                <li>Respitory Infections</li>
-                                                <li>Sinusitis</li>
-                                                <li>Sore Throat</li>
-                                                <li>Sprains &amp; Strains</li>
-                                                <li>Strep</li>
-                                                <li>Tonsillitis</li>
-                                                <li>Vaginal / Menstrual Issues</li>
-                                                <li>Yeast Infection</li>
-                                                <li>....and more!</li>
-                                            </ul>
-                                        </div>
+
+                                        <ul>
+                                            <li>Abdominal Pain / Cramps</li>
+                                            <li>Abcess</li>
+                                            <li>Acid Reflux </li>
+                                            <li>Allergies</li>
+                                            <li>Animal / Insect Bites</li>
+                                            <li>Arthritis</li>
+                                            <li>Asthma</li>
+                                            <li>Backache</li>
+                                            <li>Blood Pressure Issues</li>
+                                            <li>Bronchitis</li>
+                                            <li>Bowel / Digestive Issues</li>
+                                            <li>Cellulitus</li>
+                                            <li>Common Colds</li>
+                                            <li>Constipation</li>
+                                            <li>Cough / Croup</li>
+                                            <li>Diarrhea</li>
+                                            <li>Dizziness</li>
+                                            <li>Eye Infection / Irritation</li>
+                                            <li>Fever</li>
+                                            <li>Flu</li>
+                                            <li>Gas &amp; Bloating</li>
+                                            <li>Gout</li>
+                                            <li>Headache / Migraine</li>
+                                            <li>Herpes</li>
+                                            <li>Joint Pain / Swelling</li>
+                                            <li>Laryngitis</li>
+                                            <li>Pink Eye</li>
+                                            <li>Poison Ivy / Oak</li>
+                                            <li>Rash / Skin Injuries</li>
+                                            <li>Respitory Infections</li>
+                                            <li>Sinusitis</li>
+                                            <li>Sore Throat</li>
+                                            <li>Sprains &amp; Strains</li>
+                                            <li>Strep</li>
+                                            <li>Tonsillitis</li>
+                                            <li>Vaginal / Menstrual Issues</li>
+                                            <li>Yeast Infection</li>
+                                            <li>....and more!</li>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="padding">
                     <h1>Telewellness</h1>
                     <div class="accordion" id="accordionExample2">
                         <div>
                             <div class="title" id="heading2">
                                 <div class="row" data-toggle="collapse" data-target="#collapse2">
-                                    <div class="col-12 col-md-10">
+                                    <div class="col-9 col-md-10">
                                         <h4>Mental and Behavioral Health</h4>
                                         <p>Our board-certified doctors can diagnoseyour symptoms, prescribe medication,
                                             and send prescriptions to a pharmacy of choice. Alternatively, you can take
                                             advantage of our wholesale program as well. We treat most non-emergency
                                             conditions such as:</p>
                                     </div>
-                                    <div class="col-12 col-md-2">
+                                    <div class="col-3 col-md-2">
                                         <i class="fas fa-plus icon-green fa-4x"></i>
                                     </div>
 
@@ -184,20 +181,20 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="padding">
                     <h1>Life Coaching</h1>
                     <div class="accordion" id="accordionExample3">
                         <div>
                             <div class="title" id="heading3">
                                 <div class="row" data-toggle="collapse" data-target="#collapse3">
-                                    <div class="col-12 col-md-10">
+                                    <div class="col-9 col-md-10">
                                         <h4>Mental and Behavioral Health</h4>
                                         <p>Our board-certified doctors can diagnoseyour symptoms, prescribe medication,
                                             and send prescriptions to a pharmacy of choice. Alternatively, you can take
                                             advantage of our wholesale program as well. We treat most non-emergency
                                             conditions such as:</p>
                                     </div>
-                                    <div class="col-12 col-md-2">
+                                    <div class="col-3 col-md-2">
                                         <i class="fas fa-plus icon-green fa-4x"></i>
                                     </div>
 
@@ -228,20 +225,20 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="padding">
                     <h1>Diet & Nutritional Planning</h1>
                     <div class="accordion" id="accordionExample4">
                         <div>
                             <div class="title" id="heading4">
                                 <div class="row" data-toggle="collapse" data-target="#collapse4">
-                                    <div class="col-12 col-md-10">
+                                    <div class="col-9 col-md-10">
                                         <h4>Mental and Behavioral Health</h4>
                                         <p>Our board-certified doctors can diagnoseyour symptoms, prescribe medication,
                                             and send prescriptions to a pharmacy of choice. Alternatively, you can take
                                             advantage of our wholesale program as well. We treat most non-emergency
                                             conditions such as:</p>
                                     </div>
-                                    <div class="col-12 col-md-2">
+                                    <div class="col-3 col-md-2">
                                         <i class="fas fa-plus icon-green fa-4x"></i>
                                     </div>
 
@@ -264,20 +261,20 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="padding">
                     <h1>Medical & Legal Advisory</h1>
                     <div class="accordion" id="accordionExample5">
                         <div>
                             <div class="title" id="heading5">
                                 <div class="row" data-toggle="collapse" data-target="#collapse5">
-                                    <div class="col-12 col-md-10">
+                                    <div class="col-9 col-md-10">
                                         <h4>Mental and Behavioral Health</h4>
                                         <p>Our board-certified doctors can diagnoseyour symptoms, prescribe medication,
                                             and send prescriptions to a pharmacy of choice. Alternatively, you can take
                                             advantage of our wholesale program as well. We treat most non-emergency
                                             conditions such as:</p>
                                     </div>
-                                    <div class="col-12 col-md-2">
+                                    <div class="col-3 col-md-2">
                                         <i class="fas fa-plus icon-green fa-4x"></i>
                                     </div>
 

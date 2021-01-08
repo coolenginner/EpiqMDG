@@ -1,4 +1,35 @@
 .navbar-nav{
     width: 100%;
-    justify-content: center;
+    
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .hide-responsive{
+        display: none;
+    }
+
+    .navbar-nav .nav-item{
+        text-align: start!important;
+    }
+
+    .navbar-nav{
+        justify-content: start;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hide-not-responsive{
+        display: none;
+    }
+
+    .navbar-nav .nav-item{
+        text-align: center!important;
+    }
+
+    .navbar-nav{
+        justify-content: center;
+    }
 }

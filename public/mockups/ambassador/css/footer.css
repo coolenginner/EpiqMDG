@@ -15,3 +15,19 @@ footer .row div h6{
 .footer-info p:first-child{
     display: inline;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .footer-info{
+        padding: 2vh 5vw;
+    }
+    
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+.footer-info{
+    margin-top: 2rem;
+}
