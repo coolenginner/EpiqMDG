@@ -48,10 +48,6 @@ h1{
     text-align: left;
 }
 
-article img{
-    width: 100%;
-    height: auto;
-}
 
 @media only screen and (max-width: 600px) {
     .banner-health-care .container .display-4{
