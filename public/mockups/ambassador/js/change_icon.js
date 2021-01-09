@@ -17,34 +17,54 @@ $(document).ready(function () {
         });
 
     $('#account-plus').on("click", function (){
-        $('#account-plus').addClass('hide-click');
-        $('#accordionExample').removeClass('hide-click');
+        $('#account-plus').fadeOut( 1000, function() {
+            $('#accordionExample').find('.icon-green').hide();
+            $( "#accordionExample" ).slideDown( 1500);
+            $('#accordionExample').find('.icon-green').fadeIn(3000 );
+          });
     });
 
     $('#billing-plus').on("click", function (){
-        $('#billing-plus').addClass('hide-click');
-        $('#accordionExample2').removeClass('hide-click');
+        $('#billing-plus').fadeOut( 1000, function() {
+            $('#accordionExample2').find('.icon-white').hide();
+            $( "#accordionExample2" ).slideDown( 1500);
+            $('#accordionExample2').find('.icon-white').fadeIn(3000 );
+          });
     });
 
     //services
     $('#services-plus').on("click", function (){
-        $('#services-plus').addClass('hide-click');
-        $('#accordionExample3').removeClass('hide-click');
+        $('#services-plus').fadeOut( 1000, function() {
+            $('#billing-plus').fadeOut( 1000, function() {
+                $('#accordionExample3').find('.icon-green').hide();
+                $( "#accordionExample3" ).slideDown( 1500);
+                $('#accordionExample3').find('.icon-green').fadeIn(3000 );
+              });
+          });
     });
 
      $('#how-it-works-plus').on("click", function (){
-        $('#how-it-works-plus').addClass('hide-click');
-        $('#accordionExample4').removeClass('hide-click');
+        $('#how-it-works-plus').fadeOut( 1000, function() {
+            $('#accordionExample4').find('.icon-white').hide();
+            $( "#accordionExample4" ).slideDown( 1500);
+            $('#accordionExample4').find('.icon-white').fadeIn(3000 );
+          });
     });
 
     $('#filler-plus').on("click", function (){
-        $('#filler-plus').addClass('hide-click');
-        $('#accordionExample5').removeClass('hide-click');
+        $('#filler-plus').fadeOut( 1000, function() {
+            $('#accordionExample5').find('.icon-green').hide();
+            $( "#accordionExample5" ).slideDown( 1500);
+            $('#accordionExample5').find('.icon-green').fadeIn(3000 );
+          });
     });
 
     $('#diet-plus').on("click", function (){
-        $('#diet-plus').addClass('hide-click');
-        $('#accordionExample6').removeClass('hide-click');
+        $('#diet-plus').fadeOut( 1000, function() {
+            $('#accordionExample6').find('.icon-white').hide();
+            $( "#accordionExample6" ).slideDown( 1500);
+            $('#accordionExample6').find('.icon-white').fadeIn(3000 );
+          });
     });
 
 });
