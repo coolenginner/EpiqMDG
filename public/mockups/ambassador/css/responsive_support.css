@@ -49,6 +49,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 80px;
+    max-height: 81px;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }

@@ -10,6 +10,9 @@
     align-items: start!important;
 }
 
+.col-12.col-md-6 img {
+    height: 100%;
+}
 
 .banner .employees-banner.center .container .display-4:nth-child(1){
     margin-right: 5vw;

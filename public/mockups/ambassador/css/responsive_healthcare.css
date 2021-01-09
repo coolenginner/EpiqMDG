@@ -16,7 +16,6 @@
 
 .banner-health-care .container .display-4{
     padding: 0% 5%;
-    margin-left: 20%;
 }
 
 .banner-health-care .container .display-4{
@@ -26,16 +25,17 @@ h1{
     color:var(--green) ;
 }
 
-.status{
-    margin: 2.5%;
-}
 
 .status-left {
+    margin: 2.5%;
     padding-right: 25%;
+    padding-bottom: 6vh;
 }
 
 .status-right {
-    margin-top: 2rem;
+    margin: 2.5%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     padding-left: 25%;
 }
 
@@ -46,8 +46,12 @@ h1{
 .banner-health-care div h1 {
     color: white;
     text-align: left;
+    margin-left: 5vw;
 }
 
+.d-flex button {
+    margin-left: 25vw;
+}
 
 @media only screen and (max-width: 600px) {
     .banner-health-care .container .display-4{
