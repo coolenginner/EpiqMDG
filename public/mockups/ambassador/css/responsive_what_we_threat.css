@@ -1,3 +1,7 @@
+    .center-right {
+        height: 75vw;
+    }
+
 ul {
     columns: 3;
     -webkit-columns: 3;
@@ -52,6 +56,9 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
+    .center-right {
+        height: 75vw;
+    }
     ul {
         margin-left: -40%;
         columns: 1;

@@ -62,7 +62,16 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    .jumbotron .container  h1.display-4 {
+        font-size: 2rem;
+    }
+
     
+.banner div div h5{
+    font-size: 1.4rem!important;
+} 
+
+
     .program h1{
         padding: 0% 0% 0% 3%;
         color: var(--green);
