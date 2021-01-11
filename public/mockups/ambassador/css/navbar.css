@@ -53,4 +53,8 @@
     a.nav-link img{
         width: 70px;
     }
+
+    ul li {
+        padding: 0px!important;
+    }
 }

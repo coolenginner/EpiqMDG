@@ -55,6 +55,12 @@ ul {
     color: white;
 }
 
+
+@media only screen and (max-width: 480px){
+    .what-we-threat-banner .container h1 {
+        font-size: 1.5rem;
+    }
+}
 @media only screen and (max-width: 767px) {
     .center-right {
         height: 75vw;
@@ -70,4 +76,6 @@ ul {
       ul li {
        padding: 0rem;
       } 
+
+
 }
