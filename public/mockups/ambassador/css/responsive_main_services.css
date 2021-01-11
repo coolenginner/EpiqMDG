@@ -84,6 +84,26 @@
 .healthcare .row div ul{
     font-size: 1.5rem;
 }
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-service-banner .container h1 {
+        font-size: 2.5rem!important;
+        font-weight: 600;
+    }
+    
+    .main-service-banner .container h1 span {
+        font-size: 2.5rem!important;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .main-service-banner {
+        padding: 5% 10%;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -91,19 +111,18 @@
         font-size: 1.8rem;
     }
 
-    .about-us-banner .container h1 {
+    .main-service-banner .container h1 {
         font-size: 4rem;
         font-weight: 600;
     }
     
-    .about-us-banner .container h1 span {
+    .main-service-banner .container h1 span {
         font-size: 4rem;
         font-weight: 600;
         color:var(--green);
     }
-
     
-    .about-us-our-history-container {
+    .main-service-banner {
         padding: 5% 10%;
     }
 }
@@ -114,12 +133,12 @@
         font-size: 2rem;
     }
 
-    .about-us-banner .container h1 {
+    .main-service-banner .container h1 {
         font-size: 4.5rem;
         font-weight: 600;
     }
     
-    .about-us-banner .container h1 span {
+    .main-service-banner .container h1 span {
         font-size: 4.5rem;
         font-weight: 600;
         color:var(--green);
