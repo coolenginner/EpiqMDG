@@ -376,7 +376,10 @@ thead tr th {
     
     }
 .icon-epiqmd{
-    display: none;
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 3%;
 }
  .logo-img{
     width: 28px;
@@ -411,3 +414,30 @@ thead tr th {
  }
 }
 
+@media only screen and  (max-width: 767px)  {
+    .reveal {display: block!important;}
+    .container-image {
+        width: 10vw;
+        height: 15vw;
+    }
+
+    .container-image img {
+        width: 100%!important;
+        height: 100%!important;
+    }
+}
+
+.custom-btn{
+    position: absolute;
+    padding: 0rem 0.7rem;
+    right: 4%;
+    border-radius: 40px;
+    font-size: 1rem;
+    background-color: black;
+    border: 1px solid  black;
+    color:#fcfcfc
+}
+
+.card-header .row {
+    padding: 2%;
+}
