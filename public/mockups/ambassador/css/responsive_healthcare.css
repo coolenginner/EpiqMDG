@@ -1,0 +1,82 @@
+.banner-health-care{
+    background-image: url('../img/healthcare_banner2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
+.banner-health-care .container .display-4{
+    padding: 0% 5%;
+}
+
+.banner-health-care .container .display-4{
+    margin-top: 20%;
+}
+h1{
+    color:var(--green) ;
+}
+
+
+.status-left {
+    margin: 2.5%;
+    padding-right: 25%;
+    padding-bottom: 6vh;
+}
+
+.status-right {
+    margin: 2.5%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 25%;
+}
+
+.status-right p{
+    text-align: right;
+}
+
+.banner-health-care div h1 {
+    color: white;
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.d-flex button {
+    margin-left: 25vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-health-care .container .display-4{
+        padding: 0% 5%;
+        margin-left: 5%;
+    }
+    
+    .display-4 {
+        font-size: 2.1rem;
+      
+    }
+    .banner-health-care .container .display-4{
+        margin-top: 5%;
+    }
+
+    .status{
+        padding: 5%;
+    }
+
+    .status-right p{
+        text-align: left;
+    }
+
+    .status-right, .status-left {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+}

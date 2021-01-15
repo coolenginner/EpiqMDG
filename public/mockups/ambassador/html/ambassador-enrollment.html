@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/main_service.css">
+    <link rel="stylesheet" href="../css/ambassador.css">
+    <link rel="stylesheet" href="../css/responsive_enrollment.css">
+    <style>
+        #inputDateBirth {
+            position: relative;
+            color: white;
+        }
+
+
+        #inputDateBirth:before {
+            position: absolute;
+            top: 0.4rem;
+            left: 0.8rem;
+            content: attr(data-date);
+            display: inline-block;
+            color: #495057;
+        }
+
+
+        #inputDateBirth::-webkit-datetime-edit,
+        #inputDateBirth::-webkit-inner-spin-button,
+        #inputDateBirth::-webkit-clear-button {
+            display: none;
+        }
+
+
+        #inputDateBirth::-webkit-calendar-picker-indicator {
+            position: absolute;
+            top: 0.4rem;
+            right: 0.8rem;
+            color:  #495057;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-toggler" type="a" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item my-auto mx-3 hide-not-responsive">
+                        <a class="nav-link" href="ambassador-homepage.html">HOME</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="ambassador-about-us.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="ambassador-main-services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="ambassador-employees.html">EMPLOYER PLANS</a>
+                    </li>
+                    <li class="nav-item hide-responsive">
+                        <a class="nav-link" href="ambassador-homepage.html"><img src="../img/EpiqMD_Logo.png"
+                                width="90px" height="auto"></a>
+                    </li>
+                    <li class="nav-item mx-3 my-auto hide-not-responsive">
+                        <a class="nav-link active" href="ambassador-enrollment.html">SIGN UP</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="ambassador-support.html">SUPPORT</a>
+                    </li>
+                    <li class="nav-item my-auto mx-3">
+                        <a class="nav-link" href="ambassador-enrollment.html">ESPAÑOL</a>
+                    </li>
+
+                    <li class="nav-item my-auto hide-responsive">
+                        <a class="btn btn-ambassador-success" href="#">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="banner">
+            <div class="jumbotron jumbotron-fluid custom-banner enrollment-banner center">
+                <div class="container">
+                    <h1 class="display-4" style="text-align: center;">In business for yourself, </h1>
+                    <h1 class="display-4" style="text-align: center;">not by yourself.
+                    </h1>
+                </div>
+            </div>
+        </article>
+        <article class="bg-light">
+            <div class="row enrollment-article-sponsor--container">
+                <div class="col-12 col-md-4 d-flex justify-content-start">
+                    <img class="avatar" src="../img/avatar-01.jpg" width="100" height="auto">
+                </div>
+                <div class="col-12 col-md-8 enrollment-article-sponsor--info">
+                    <h3>Brand Ambassador Enrollment</h3>
+                    <h5>SPONSORING AMBASSADOR</h5>
+                    <h5>JOHN Q. AMBASSADOR - EPIQ ID #12345678</h5>
+                </div>
+                <div class="col-12 col-md-12 enrollment-article-sponsor--text">
+                    <p>Epiq MD is excited to have you join our ranks as a Brand Ambassador. The first step to
+                        building a business that will change lives start with enrolling in our Brand Ambassador
+                        Program below. Welcome to Epiq MD!</p>
+                </div>
+
+        </article>
+        <article class="form">
+            <form>
+                <div class="form-row" style="padding: 0px 5%;">
+                    <div class="form-group col-md-4">
+                        <label for="inputFName">First Name</label>
+                        <input type="text" class="form-control" id="inputFName" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputMName">Middle Name</label>
+                        <input type="text" class="form-control" id="inputMName" placeholder="Middle Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputLName">Last Name</label>
+                        <input type="text" class="form-control" id="inputLName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputStreetAddress">Street Address</label>
+                        <input type="text" class="form-control" id="inputStreetAddress" placeholder="Street Address">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputStreetAddress2">Street Address 2</label>
+                        <input type="text" class="form-control" id="inputStreetAddress2" placeholder="Street Address2">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="City">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputState">State</label>
+                        <input type="text" class="form-control" id="inputState" placeholder="State">
+                    </div>
+                    <div class="col-md-12 justify-content-center">
+                        <a href="" class="contact-us-link">If your mailing address is different than
+                            your physical address, click here. </a>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPhone">Phone Number</label>
+                        <input type="text" class="form-control" id="inputPhone" placeholder="(xxx)-xxx-xxxx">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputZipCode">Zip Code</label>
+                        <input type="number" class="form-control" id="inputZipCode" placeholder="Zip Code">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputSSN_EIN">SSN or EIN</label>
+                        <input type="text" class="form-control" id="inputSSN_EIN" placeholder="">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputDateBirth">Date of Birth</label>
+                        <input type="date" class="form-control" id="inputDateBirth" data-date=""
+                            data-date-format="MM-DD-YYYY" value="" placeholder="123456">
+                    </div>
+
+                </div>
+                <button type="submit" class="btn btn-ambassador-light" id="contact-button">Submit</button>
+            </form>
+        </article>
+    </main>
+    <footer class="container bg-white">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="row">
+                    <div class="col-12 col-md-3 d-flex justify-content-center">
+                        <img src="../img/EpiqMD_Logo.png">
+                    </div>
+                    <div class="col-12 col-md-9 footer-info">
+                        <p>You DERSERVE AN EPIQ LIFE</p>
+                        <p>@ Copyright 2021. EpiqMD. All rights Reserved.<br>
+                            7950 Legacy Dr.,Suite 400 Plano. TX 75024</p>
+                        <div class="row d-flex justify-content-between padding">
+                            <i class="fab fa-instagram fa-lg" style="color:  #25b492;"></i>
+                            <i class="fab fa-facebook-f fa-lg" style="color:  #25b492;"></i>
+                            <i class="fas fa-envelope fa-lg" style="color:  #25b492;"></i>
+                            <i class="fab fa-twitter fa-lg" style="color:  #25b492;"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <h6>SERVICES</h6>
+                <br>
+                <a href="ambassador-telemedicine.html">Telemedicine - Primary
+                    Care</a><br />
+                <a>Telehealth - Mental & Behavioral
+                    Health
+                    Laboratory Diagnostics</a><br />
+                <a>Prescription Discount Programs</a><br />
+                <a>Custom Diet & Nutrition Planning</a><br />
+                <a>Medical Advisory</a><br />
+                <a>Covid-19 Testing & Post-Covid-19 Planning</a><br />
+                <a>Nutraceutical Products</a><br />
+                <a href="ambassador-opportunity.html">Employer Programs</a><br />
+            </div>
+            <div class="col-12 col-md-2">
+                <h6>ABOUT</h6>
+                <br>
+                <a href="ambassador-what-we-threat.html">How It Works </a><br>
+                <a>News &amp; Events</a><br>
+                <a>Customer Testimonies</a><br>
+                <a>Sign Up for services</a><br>
+                <a>Privacy Policy</a><br>
+                <a>Site Map</a><br>
+                <a>Disclaimer &amp; Forward</a><br>
+                <a>Looking Statements</a><br>
+                <a>Terms of Service</a>
+            </div>
+            <div class="col-12 col-md-3">
+                <h6>NEED HELP?</h6>
+                <br>
+                <a href="ambassador-faq.html">FAQ</a><br>
+                <a>Member Support</a><br>
+                <a>Submit a Ticket</a><br>
+                <a>Cancel Membership</a><br>
+                <a>Hours: Monday-Friday, 7:00 a.m. - 7:00 p.m. CST</a><br>
+                <a>Saturday, 8:00 a.m. - 5:00 p.m.
+                    CST</a>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/all.js"></script>
+    <script>
+        $("#inputDateBirth").on("change", function () {
+            if(this.value === "" ){
+                this.setAttribute(
+                "data-date", "YYYY-MM-DD")
+                $(this).css('color', 'red');
+                return
+            }
+            this.setAttribute(
+                "data-date",
+                moment(this.value, "YYYY-MM-DD")
+                    .format(this.getAttribute("data-date-format"))
+            )
+        }).trigger("change")
+
+    </script>
+
+
+</body>
+
+
+</html>

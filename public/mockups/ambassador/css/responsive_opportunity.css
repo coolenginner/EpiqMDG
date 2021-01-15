@@ -1,0 +1,255 @@
+
+.opportunity-banner{
+    position: relative;
+    overflow: hidden;
+}
+
+.opportunity-banner:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('../img/opportunity_banner_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100% 100%;
+}
+
+.opportunity-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+.links{
+    color: var(--green)!important;
+}
+
+
+.icon-image{
+    margin-top: 15%;
+    width: 90%;
+    height: 100%;
+    max-height: 100px;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);;
+    display: block;
+}
+
+h2{
+    font-weight: 500!important;
+}
+
+.opportunity-banner div h1{
+    font-weight: 700!important;
+}
+
+.opportunity--container-banner h2, .opportunity--container-banner h2 {
+    color: var(--green);;
+}
+
+
+.opportunity--container-banner a:first-child{
+    font-size: 2rem;
+    color:deepskyblue;
+   
+}
+
+.opportunity--container-banner a:first-child{
+    color:dodgerblue;
+}
+
+.opportunity--container-banner div a.btn-ambassador-success{
+    margin: 10px 40%; color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+p a {
+    text-decoration: underline;
+    color: white;
+}
+
+p a:hover {
+    color: lightgray;
+}
+  .centersafsgdag {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.opportunity--container-banner{
+    width: 100%;
+    padding-right: 25%;
+    padding-left: 5%;
+    
+}
+
+.opportunity--container-banner-2{
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 5%;
+    color: white;
+}
+
+.bg-secondary{
+    background-color: var(--lightGray)!important;
+}
+
+@media only screen and (max-width: 599px) {
+    .display-4{
+        text-align: center;
+    } 
+
+    .btn-ambassador-success{
+        margin: 5px!important;
+        align-self: center;
+    }
+
+    .opportunity-banner div h1 {
+        font-size: 2.1rem!important;
+    }
+    
+    .opportunity-banner div h1 span{
+        font-size: 2.1rem!important;
+    }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+    h2.display-4 {
+        font-size: 1.8rem;
+    }
+
+        
+    .lead{
+        font-size: 1.3rem;
+    }
+
+    .lead a{
+        font-size: 1.3rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h2.display-4  {
+        font-size: 2rem;
+    }
+
+    .btn-ambassador-success {
+        margin: 10px 2vw!important ;
+    }
+        
+    .lead{
+        font-size: 1.6rem;
+    }
+
+    .lead a{
+        font-size: 1.6rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4.5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h2.display-4  {
+        font-size: 2.3rem;
+    }
+
+
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h2.display-4  {
+        font-size: 2.75rem;
+    }
+
+    .lead{
+        font-size: 2rem;
+    }
+
+    .lead a{
+        font-size: 2rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}

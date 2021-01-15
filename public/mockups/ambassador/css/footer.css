@@ -1,0 +1,53 @@
+footer .row div h6{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    display: inline;
+    font-family: Quicksand;
+}
+
+.col-12.col-md-3 a, .col-12.col-md-2 a{
+    text-decoration: none;
+    font-family: Quicksand;
+    background-color: transparent;
+    color: var(--linkGray);
+}
+
+.footer-info p:first-child{
+    display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+    footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.align-self-center > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .footer-info{
+        padding: 2vh 5vw;
+    }
+    
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+.footer-info{
+    margin-top: 2rem;
+}
+
+body > footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-3.d-flex.justify-content-center > img {
+    margin-top: 5vh;
+    width:100px;
+    height: 100px;
+}

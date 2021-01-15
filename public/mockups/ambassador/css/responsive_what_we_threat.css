@@ -1,0 +1,81 @@
+    .center-right {
+        height: 75vw;
+    }
+
+ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-type: none;
+  }
+
+  ul li {
+   padding: 0.2rem 1rem;
+  } 
+
+.what-we-threat-banner{
+    background-image: url('../img/what_we_threat_bg.jpg');
+}
+
+.what-we-threat-banner .container h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-align: right;
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
+.card-body div div ul{
+    list-style-type: none;
+}
+
+.expandable-info .padding:nth-child(odd){
+    background-color: var(--darkWhite);
+}
+
+.expandable-info .padding:nth-child(odd) h1{
+    color: var(--green);
+}
+
+.expandable-info .padding:nth-child(even){
+    background-color: var(--green);
+}
+
+.expandable-info .padding:nth-child(even) h1{
+    color: white;
+}
+
+.expandable-info .padding:nth-child(even) .accordion div .title .row div .icon-green {
+    color: white;
+}
+
+
+@media only screen and (max-width: 480px){
+    .what-we-threat-banner .container h1 {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .center-right {
+        height: 75vw;
+    }
+    ul {
+        margin-left: -40%;
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        list-style-type: none;
+      }
+    
+      ul li {
+       padding: 0rem;
+      } 
+
+
+}

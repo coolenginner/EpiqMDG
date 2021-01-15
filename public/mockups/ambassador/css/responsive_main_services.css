@@ -1,0 +1,195 @@
+.links{
+    color: var(--green);
+}
+
+.main-service-banner{
+    background-image: url('../img/main_service_1.png');
+}
+
+.btn-ambassador-light{
+    float: none!important;
+    width: fit-content;
+}
+
+.healthcare{
+    padding: 3% 8%;
+}
+
+.main-service-banner .container h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.main-service-banner .container h1 span {
+    font-size: 5rem;
+    font-weight: 600;
+    color:var(--green);
+}
+.icon-image{
+    margin-top: 15%;
+    width: 90%;
+    height: 100%;
+    max-height: 100px;
+}
+
+.container_main_services{
+    background-color:#f3f3f4;
+    padding: 3% 8%;
+}
+
+.container_main_services h1{
+   color:var(--green);
+   font-size: 5.5rem;
+   font-weight: 400;
+}
+
+.container_main_services .services-paragraph{
+    color: var(--tittleGray);
+    font-size: 2.5rem;
+    padding-left: 2%;
+}
+
+.container_main_services .services-subparagraph{
+    color:var(--subtittleGray);
+    font-size: 2rem;
+    padding-left: 2%;
+}
+
+.container_main_services div .col-md-3 div p{
+    color:var(--subtittleGray);
+}
+
+.container_main_services div .col-md-3 div h4{
+    color: var(--tittleGray);
+}
+
+
+
+.healthcare{
+    background-color: var(--green);
+}
+
+.healthcare .row {
+    padding: 5% 5%;}
+
+.healthcare-tittle {
+        font-size: 4rem;
+        text-align: center;
+}
+
+.healthcare .row div p{
+    font-size: 2rem;
+}
+
+.healthcare .row div ul{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-service-banner .container h1 {
+        font-size: 2.5rem!important;
+        font-weight: 600;
+    }
+    
+    .main-service-banner .container h1 span {
+        font-size: 2.5rem!important;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .main-service-banner {
+        padding: 5% 10%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-service-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .main-service-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .main-service-banner {
+        padding: 5% 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    .main-service-banner .container h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+    
+    .main-service-banner .container h1 span {
+        font-size: 4.5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h3 {
+        font-size: 2.3rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 4rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h3 {
+        font-size: 2.75rem;
+    }
+
+    .about-us-banner .container h1 {
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    
+    .about-us-banner .container h1 span {
+        font-size: 5rem;
+        font-weight: 600;
+        color:var(--green);
+    }
+
+    .about-us-our-history-container {
+        padding: 5% 10%;
+    }
+}

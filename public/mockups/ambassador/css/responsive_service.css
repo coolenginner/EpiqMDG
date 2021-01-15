@@ -1,0 +1,129 @@
+.service-banner{
+    background-image: url('../img/service_bg.jpg');
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color: var(--green);
+    display: block;
+}
+
+.banner div div h1{
+    color:white;
+}
+
+.end {
+    position:relative;
+}
+
+.end div{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+.telemedicine-banner {
+    background-color: var(--darkWhite);
+}
+
+.how-it-works{
+    margin-bottom: 4rem;
+}
+
+.how-it-works h1{
+    color:var(--green);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.how-it-works .row div{
+    flex-direction: column;
+}
+
+.how-it-works .row div h6{
+    color: var(--lightGray);
+    text-align: center;
+}
+
+
+.how-it-works .row div img{
+    color: var(--lightGray);
+    align-self: center;
+}
+
+.telemedicine-banner .row div h1 {
+    color: var(--green);
+    font-size: 4rem;
+}
+
+.telemedicine-banner .row div p {
+    font-size: 1rem;
+}
+
+.need-it--article div div h4{
+    color: var(--green);
+}
+
+  .center{
+      height: auto;
+      align-items: flex-end;
+  }
+  .center div h4{
+    font-size: 2.8rem;
+}
+
+.center div p{
+   font-size: 1.4rem;}
+
+   .how-it-works--icon{
+       width: 80px;
+       height: 80px!important;
+   }
+
+   
+   @media only screen and (max-width: 767px) {
+       .telemedicine-banner .row .padding h1{
+            font-size: 3.2rem;
+       }
+       .how-it-works div .d-flex{
+           margin: 2vh 1vw;
+       }
+    .btn-ambassador-success {
+        font-size: 0.8rem;
+    }
+}
+
+   @media only screen and (min-width: 768px) {
+    .telemedicine-banner .row .padding h1{
+        font-size: 3.2rem;
+   }
+       .btn-ambassador-success {
+           font-size: 0.7rem;
+       }
+   }
+
+   @media only screen and (min-width: 992px) {
+    .btn-ambassador-success {
+        font-size:1rem;
+    }
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .btn-ambassador-success {
+        font-size:2rem;
+    }
+
+    .center div h4{
+        font-size: 3.8rem;
+    }
+    
+    .center div p{
+       font-size: 2.4rem;}
+
+    h6 {
+        font-size:2rem;
+    }
+    
+}

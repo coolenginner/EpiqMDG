@@ -1,0 +1,133 @@
+:root {
+   --green:#25b492;
+   --gray:#58585a;
+   --bgGray::#606060;
+   --tittleGray:#3a3a3c;
+   --subtittleGray:#5c5b5d;
+   --lightGray: #6d6e71;
+   --linkGray: #6c757d;
+   --darkWhite:#f3f3f4;
+}
+
+footer{
+    padding-top: 5vh;
+}
+.padding {
+    padding: 3% 8%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+.custom-banner{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75vw;
+    margin-bottom: 0px!important;
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.3)
+}
+
+.banner::after{
+    content: "";
+    height: 50px;
+    background-color:  var(--green);
+    display: block;
+}
+
+
+  .center-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+  }
+  .center-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 500px;
+  }
+  
+  
+.bg-ambassador-primary{
+    background-color: var(--green);
+}
+
+.bg-ambassador-gray{
+    background-color:var(--gray);
+}
+
+.special-link{
+    color: var(--darkWhite);
+    text-decoration: underline;
+}
+.btn-ambassador-success{
+    background-color:var(--green);
+    border-color:var(--green);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+.btn-ambassador-success:hover{
+    background-color:var(--green);
+    border-color:var(--green);
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-ambassador-light{
+    background-color: white;
+    border-color:  white;
+    color: var(--gray)!important;
+    border-radius: 25px;
+    width: 25%;
+    margin-left: 33%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+
+.btn-ambassador-light:hover{
+    background-color: white;
+    border-color:  white;
+    color: var(--gray)!important;
+    border-radius: 25px;
+
+}
+
+
+
+article img{
+    width: 100%;
+    height: auto;
+}
+
+.form-control {
+    border-radius: 25px!important;
+}
+
+label {
+    color: white;
+    padding: 0% 4%;
+}
+
+.icon-green{
+    color: var(--green);
+}
+
+.icon-white{
+    color: white;
+}
+
+.vertical-center {
+    margin-top:50%;
+  }
