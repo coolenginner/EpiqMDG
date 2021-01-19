@@ -289,7 +289,7 @@ thead tr th {
         max-width: 80%!important;
     }
     .home {
-        background: url("../assets/img/bg/element2.png") 0 0 no-repeat;
+        background: url("../img/bg/element2.png") 0 0 no-repeat;
         background-size: 100% 70%;
         background-position: right top;
     }
@@ -403,7 +403,7 @@ thead tr th {
     }
 
     .home {
-        background: url("../assets/img/bg/element4.png") 0 0 no-repeat;
+        background: url("../img/bg/element4.png") 0 0 no-repeat;
         background-size: 25% 70%;
         background-position: right top;
     }
