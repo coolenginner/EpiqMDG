@@ -1,7 +1,3 @@
-.table.table-responsive{
-    padding-left: 10%;
-}
-
 .btn-success {
     background-color:#3FB897 !important;
     border: 1px solid#3FB897 !important;
@@ -15,8 +11,12 @@
     color:#44436B;
 }
 
+.table.table-responsive{
+    padding-left: 10%;
+}
+
 .gray {
-    color: #606062;
+    color:#606062
 }
 .products-color {
     color: #3FB897;
