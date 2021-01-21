@@ -2,6 +2,10 @@
     background-color:#3FB897 !important;
     border: 1px solid#3FB897 !important;
 }
+.next-buttom:hover{
+    cursor: pointer;
+   }
+   
 
 .news-color {
     color:#44436B;
