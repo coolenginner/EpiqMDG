@@ -1,6 +1,27 @@
+.card-header .row h3{
+    margin-top: 0.5rem;
+}
 
+@media only screen and (max-width: 767px) {
+
+    .img-container{
+        padding-right: 6vw!important;
+        padding-left: 6vw!important;
+    }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) {
+
+    .custom-padding{
+        padding-right: 6px!important;
+        padding-left: 6px!important;
+    }
+
+    .img-container{
+        padding-right: 1vw!important;
+        padding-left: 1vw!important;
+    }
+
     .row > form {
         margin-right: 2rem;
     }
@@ -62,7 +83,7 @@
     }
 
     .card-date{
-        margin-left: -1.4rem!important;
+        margin-left: -1rem!important;
     }
 
     .btn-success{
@@ -75,7 +96,7 @@
 
     .card-service{
         border: 16px solid white;
-        height: 110px;
+        height: 130px;
     }
     .title-card-service{
         font-size: 0.5rem;
@@ -83,7 +104,6 @@
     }
     .text-card-service{
         font-size: 0.4rem;
-        padding-right: 0.5rem;
 }
 .card-header h3{
     font-size: 0.8rem;
@@ -175,7 +195,6 @@
     }
     .text-card-service{
         font-size: 0.4rem;
-        padding-right: 0.5rem;
 }
 .card-header h3{
     font-size: 0.8rem;
@@ -255,7 +274,7 @@
 
     .card-service{
         border: 16px solid white;
-        height: 140px;
+        height: 200px;
     }
     .title-card-service{
         font-size: 1rem;
@@ -263,7 +282,7 @@
     }
     .text-card-service{
         font-size: 0.8rem;
-        padding-right: 0.5rem;
+      
 }
 .card-header h3{
     font-size: 1.2rem;
