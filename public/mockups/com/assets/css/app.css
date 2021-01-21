@@ -11,6 +11,9 @@
     color: #3FB897;
 }
 
+.blue{
+    color:#2D7685;
+}
 .product-image-container{
     padding-right: 0px!important;
 }
@@ -84,7 +87,7 @@ thead tr th {
 }
 
 .text-bloc {
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0rem;
 }
 
 .card-body.card-list .list-group .list-group-item{
