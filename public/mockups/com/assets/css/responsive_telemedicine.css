@@ -1,5 +1,11 @@
+
+
 .fc-basic-view .fc-body .fc-row {
     min-height: 2em;
+}
+
+.custom-row{
+ height: 100%;
 }
 
 .list-group-item a {
@@ -20,11 +26,37 @@ padding: 5px 5px 10px 5px;
 .list-group-item-pair{
     background-color:  #e4e4e8;
 }
+@media only screen and (max-width: 767px){
+    .img-responsive{
+        max-width: 100%!important;
+        width: 100px!important;
+    }
+    .col-without-padding img{
+        padding: 5px 0px 0px 0px!important;
+    }
+
+    
+}
 @media only screen and (min-width: 768px){
+
+    .card-subtitle{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .card-paragraph{
+        font-size: 1.4rem;
+    }
+
     
     .card-service{
         border: 16px solid white;
-        height: 18px;
+        height: 180px;
+    }
+
+    .card-service .card-body .row div img{
+        width: 80%;
+        height: auto;
     }
     
     .row > form {
@@ -56,7 +88,6 @@ padding: 5px 5px 10px 5px;
         font-size: 0.5rem;
         padding-left: 1rem!important;
     }
-    .card-title{}
 
     .banner-h2{
         font-weight: bold;
@@ -105,7 +136,7 @@ padding: 5px 5px 10px 5px;
         height: 110px;
     }
     .title-card-service{
-        font-size: 1rem !important;
+        font-size: 1rem;
     }
     .text-card-service{
         font-size: 0.4rem;
@@ -193,12 +224,9 @@ padding: 5px 5px 10px 5px;
 
     .card-service{
         border: 16px solid white;
-        height: 80px;
+        height: 100px;
     }
-    .title-card-service{
-        font-size: 1rem!important;
-        font-weight: bold;
-    }
+
     .text-card-service{
         font-size: 0.4rem;
         padding-right: 0.5rem;
@@ -283,10 +311,7 @@ padding: 5px 5px 10px 5px;
         border: 16px solid white;
         height: 140px;
     }
-    .title-card-service{
-        font-size: 1rem;
-        font-weight: bold;
-    }
+
     .text-card-service{
         font-size: 0.8rem;
         padding-right: 0.5rem;
@@ -301,10 +326,6 @@ padding: 5px 5px 10px 5px;
 
 .paragraph-bloc{
     padding: 0px 40px 0px 10px;
-}
-
-.title-card-service{
-    font-size: 1.5rem!important;
 }
 
 }

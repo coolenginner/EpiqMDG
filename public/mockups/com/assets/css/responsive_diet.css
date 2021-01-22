@@ -9,10 +9,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .card-subtitle{
-        font-size: 0.7rem;
-        font-weight: bold;
-    }
 
     .gray{
         padding-left: 4rem;
@@ -21,18 +17,6 @@
     h1.gray{
         font-size: 5rem; 
     }
-    .card-paragraph{
-        font-size: 1.4rem;
-    }
 
-    
-    .card-service{
-        border: 16px solid white;
-        height: 180px;
-    }
 
-    .card-service .card-body .row div img{
-        width: 60%;
-        height: auto;
-    }
 }
