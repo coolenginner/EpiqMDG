@@ -2,6 +2,11 @@
     margin-top: 0.5rem;
 }
 
+.bloc-image{
+    width: 100%;
+    height: auto;
+}
+
 @media only screen and (max-width: 767px) {
 
     .img-container{
