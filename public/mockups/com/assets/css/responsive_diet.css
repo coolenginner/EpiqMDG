@@ -2,6 +2,10 @@
     select#inputWeight{
         margin-top: 1.4rem;
     }
+
+    h1.gray{
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -10,6 +14,13 @@
         font-weight: bold;
     }
 
+    .gray{
+        padding-left: 4rem;
+    }
+
+    h1.gray{
+        font-size: 5rem; 
+    }
     .card-paragraph{
         font-size: 1.4rem;
     }
