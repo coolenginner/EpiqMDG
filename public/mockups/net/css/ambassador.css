@@ -9,7 +9,7 @@
    --darkWhite:#f3f3f4;
 }
 
-body{
+p,ul,ol,ul li, ol li, a{
     font-family: "Raleway";   
     src: url(../webfonts/static/Raleway-Bold.ttf) ;
 }
