@@ -7,6 +7,10 @@
     bottom: 0;
 }
    
+footer.container{
+    max-width: 100%;
+    padding: 0% 5%;
+}
 .container.container-custom {
     display: flex;
     justify-content: center;
