@@ -2,18 +2,27 @@ footer .row div h6{
     font-size: 1.2rem;
     margin-bottom: 20px;
     display: inline;
-    font-family: Quicksand;
 }
 
+footer .row .col-12.col-md-4{
+    margin-top: -3%;
+}
+
+.footer-info div{
+    margin-top: -8%;
+}
 .col-12.col-md-3 a, .col-12.col-md-2 a{
     text-decoration: none;
-    font-family: Quicksand;
     background-color: transparent;
     color: var(--linkGray);
 }
 
 .footer-info p:first-child{
     display: inline;
+}
+
+.footer-info p{
+    color: var(--linkGray);
 }
 
 @media only screen and (max-width: 768px) {
