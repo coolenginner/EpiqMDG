@@ -9,6 +9,12 @@
    --darkWhite:#f3f3f4;
 }
 
+.a--link--underline{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
 footer{
     padding-top: 5vh;
 }

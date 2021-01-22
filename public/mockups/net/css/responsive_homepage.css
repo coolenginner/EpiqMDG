@@ -2,7 +2,18 @@
     width: fit-content;
     margin: 10px 5vw
 }
-
+.btn-get-started {
+    position: absolute;
+    bottom: 0;
+}
+   
+.container.container-custom {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 75%;
+}
 .hide{
     max-width: 790px;
 }
@@ -100,12 +111,12 @@
     background-position:right top;
 }
 
-.main-service-banner .container h1 {
+.main-service-banner div h1 {
     font-size: 5rem;
     font-weight: 600;
 }
 
-.main-service-banner .container h1 span {
+.main-service-banner div h1 span {
     font-size: 5rem;
     font-weight: 600;
     color: var(--green);
@@ -122,8 +133,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .container.container-custom {
+        bottom: -30%;
+    }
 
-    .main-service-banner .container h1,.main-service-banner .container h1 span{
+    .main-service-banner div h1,.main-service-banner div h1 span{
         font-size: 2.1rem;
     }
 
@@ -205,6 +219,9 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
+    .container.container-custom {
+        bottom: -20vw;
+    }
     .image-main-services{
         margin-top: 2vh;
     }
@@ -226,6 +243,9 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+    .container.container-custom {
+        bottom: -40vw;
+    }
     .container_main_services div .col-md-3 div{
         height: 22vh;
         font-size: 0.6rem;
@@ -256,6 +276,9 @@
 
 @media only screen and (min-width: 1200px){
 
+    .container.container-custom {
+        bottom: -50vw;
+    }
     .container_main_services div .col-md-3 div{
         height: 140px;
         font-size: 0.6rem;
@@ -335,7 +358,7 @@
     margin-bottom: 2rem;
 }
 
-.main-service-banner .container h1 {
+.main-service-banner div h1 {
     font-size:7rem;
 }
 
