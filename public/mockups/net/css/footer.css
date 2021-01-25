@@ -8,9 +8,7 @@ footer .row .col-12.col-md-4{
     margin-top: -3%;
 }
 
-.footer-info div{
-    margin-top: -8%;
-}
+
 .col-12.col-md-3 a, .col-12.col-md-2 a{
     text-decoration: none;
     background-color: transparent;
@@ -39,6 +37,11 @@ footer .row .col-12.col-md-4{
     
 }
 
+@media only screen and (min-width: 768px){
+    .footer-info div{
+        margin-top: -8%;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .footer-info{
