@@ -14,6 +14,7 @@
     height: 100%;
 }
 
+
 .banner .employees-banner.center .container .display-4:nth-child(1){
     margin-right: 5vw;
 }
@@ -62,6 +63,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    .col-12.col-md-6 img {
+        height: 100%;
+    }
+    
     .jumbotron .container  h1.display-4 {
         font-size: 2rem;
     }
@@ -116,6 +121,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    
     .program h1{
         padding: 0% 0% 0% 3%;
         color: var(--green);
@@ -155,6 +161,10 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width:991px){
 
+    .col-12.col-md-6 img {
+        height: auto;
+    }
+    
     .program h1{
         color: var(--green);
         font-size: 3.8rem;
@@ -199,6 +209,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .col-12.col-md-6 img {
+        height: 100%;
+    }
+    
     .program h1{
         color: var(--green);
         font-size: 4rem;
@@ -237,6 +251,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .col-12.col-md-6 img {
+        height: 100%;
+    }
+    
     article div  {
         padding: 0% 0% 0% 3%;
     }

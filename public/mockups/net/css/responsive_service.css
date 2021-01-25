@@ -2,6 +2,11 @@
     background-image: url('../img/service_bg.jpg');
 }
 
+.img-telemedicine{
+    width: 100%;
+    height: 100%;
+}
+
 .banner::after{
     content: "";
     height: 50px;

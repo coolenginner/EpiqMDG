@@ -85,6 +85,13 @@
     font-size: 1.5rem;
 }
 @media only screen and (max-width: 600px) {
+    .healthcare-button{
+        display: flex;
+        justify-content: center;
+    }
+    h1, .container_main_services h1 {
+        font-size: 2.5rem!important;
+    }
     h3 {
         font-size: 1.8rem;
     }
