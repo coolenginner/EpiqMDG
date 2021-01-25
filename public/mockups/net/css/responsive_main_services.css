@@ -2,6 +2,12 @@
     color: var(--green);
 }
 
+.slider-container{
+    width: 100vw!important;
+    flex-direction: column;
+    padding-top: 15vh;
+}
+
 .main-service-banner{
     background-image: url('../img/main_service_1.png');
 }
@@ -85,6 +91,9 @@
     font-size: 1.5rem;
 }
 @media only screen and (max-width: 600px) {
+    .slider-container{
+        padding-top: 10vh;
+    }
     .healthcare-button{
         display: flex;
         justify-content: center;
@@ -136,6 +145,11 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .slider-container{
+        padding-top: 20vh;
+        margin-left: -8vw;
+        
+    }
     h3 {
         font-size: 2rem;
     }
