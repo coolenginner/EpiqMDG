@@ -35,12 +35,10 @@ $(document).ready(function () {
     //services
     $('#services-plus').on("click", function (){
         $('#services-plus').fadeOut( 1000, function() {
-            $('#billing-plus').fadeOut( 1000, function() {
                 $('#accordionExample3').find('.icon-green').hide();
                 $( "#accordionExample3" ).slideDown( 1500);
                 $('#accordionExample3').find('.icon-green').fadeIn(3000 );
               });
-          });
     });
 
      $('#how-it-works-plus').on("click", function (){
