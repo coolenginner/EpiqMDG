@@ -7,6 +7,9 @@
     bottom: 0;
 }
    
+.main-service-banner div h1 {
+    margin-top: -10vh;
+}
 footer.container{
     max-width: 100%;
     padding: 0% 5%;
@@ -84,7 +87,7 @@ footer.container{
 
 .opportunity--container-banner-2{
     width: 100%;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-left: 5%;
     color: white;
 }
@@ -93,7 +96,12 @@ footer.container{
     width: 80px;
     height:auto;
     max-height: 65px;
-    padding-left: 2vw;
+}
+
+.icon-image2{
+    width: auto !important;
+    height:65px !important;
+    max-height: 65px;
 }
 
 .opportunity--article-info .row{
@@ -138,8 +146,29 @@ footer.container{
 }
 
 @media only screen and (max-width: 599px) {
+    
+.icon-image{
+    width: 60px;
+    height:auto;
+    max-height: 40px;
+    margin-right: 1rem;
+}
+
+.icon-image2{
+    width: auto !important;
+    height:65px !important;
+    max-height: 40px;
+}
+
+    .main-service-banner div h1 {
+        margin-top: 0px;
+    }
+
+    .custom-banner2{
+        height: auto;
+    }
     .container.container-custom {
-        bottom: -30%;
+        bottom: -5vh;
     }
 
     .main-service-banner div h1,.main-service-banner div h1 span{
@@ -226,7 +255,7 @@ footer.container{
 @media only screen and (min-width: 600px) and (max-width: 991px){
 
     .container.container-custom {
-        bottom: -20vw;
+        bottom: -15vh;
     }
     .image-main-services{
         margin-top: 2vh;
@@ -250,7 +279,7 @@ footer.container{
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
     .container.container-custom {
-        bottom: -40vw;
+        bottom: -15vh;
     }
     .container_main_services div .col-md-3 div{
         height: 22vh;
@@ -282,10 +311,13 @@ footer.container{
 
 @media only screen and (min-width: 1200px){
     .custom-margin img{
-        margin-left: 1rem;
+        margin-left: 2rem;
+    }
+    .custom-margin img.icon-image2{
+        margin-left: 3.5rem;
     }
     .container.container-custom {
-        bottom: -50vw;
+        bottom: -20vh;
     }
     .container_main_services div .col-md-3 div{
         height: 140px;
