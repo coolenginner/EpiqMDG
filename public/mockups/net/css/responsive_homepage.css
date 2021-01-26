@@ -361,6 +361,10 @@ footer.container{
         font-size: 0.6rem;
     }
 
+    .main-service-banner div h1 {
+        margin-top: -5vh !important;
+    }
+
 
 }
 @media only screen and (min-width: 2000px){

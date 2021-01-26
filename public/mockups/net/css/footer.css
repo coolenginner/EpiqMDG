@@ -1,13 +1,19 @@
+footer {
+    margin: 2% 2%;
+}
 footer .row div h6{
     font-size: 1.2rem;
     margin-bottom: 20px;
     display: inline;
 }
 
-footer .row .col-12.col-md-4{
-    margin-top: -3%;
+footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-9.footer-info p, 
+footer > div > div:nth-child(2) > h6,
+footer > div > div:nth-child(3) > h6,
+footer > div > div:nth-child(4) > h6,
+footer > div > div> a{
+ font-size: 0.8rem;
 }
-
 
 .col-12.col-md-3 a, .col-12.col-md-2 a{
     text-decoration: none;
