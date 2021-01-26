@@ -20,6 +20,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .navbar-nav li .btn-ambassador-success{
+        margin: 0px!important;
+    }
     .hide-not-responsive{
         display: none;
     }
