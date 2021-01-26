@@ -9,9 +9,25 @@
    --darkWhite:#f3f3f4;
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-Medium.ttf) ;
+  }
+  
+  @font-face {
+    font-family: F37 Ginger;
+    src: url(../webfonts/f37Ginger/F37Ginger-Bold.otf) ;
+  }
+  
+
 p,ul,ol,ul li, ol li, a{
     font-family: "Raleway";   
-    src: url(../webfonts/static/Raleway-Bold.ttf) ;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "F37 Ginger";   
+    
 }
 .a--link--underline{
     text-decoration: underline;
@@ -149,4 +165,11 @@ label {
 
 .vertical-center {
     margin-top:50%;
+  }
+
+
+  @media only screen and (max-width: 599px) {
+    .custom-banner2{
+        height: 40vh;
+    }
   }
