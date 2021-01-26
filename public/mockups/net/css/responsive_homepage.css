@@ -43,14 +43,15 @@ footer.container{
 
 .container_main_services .services-paragraph{
     color: #3a3a3c;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     padding-left: 2%;
 }
 
 .container_main_services .services-subparagraph{
     color: #5c5b5d;
-    font-size: 2rem;
+    font-size: 1rem;
     padding-left: 2%;
+    margin-bottom: 4rem;
 }
 .container_main_services div .col-md-3{
     margin-top: 4vh;
@@ -89,10 +90,10 @@ footer.container{
 }
 
 .icon-image{
-    width: auto;
-    height: 10vh;
-    max-height: 100px;
-    padding-right: 1vw;
+    width: 80px;
+    height:auto;
+    max-height: 65px;
+    padding-left: 2vw;
 }
 
 .opportunity--article-info .row{
@@ -183,10 +184,11 @@ footer.container{
 
     .services-paragraph{
         text-align: left;
-        font-size: 1.8rem!important;
+        font-size: 1.2rem!important;
     }
     .services-subparagraph {
-        font-size: 1.5rem!important;
+        font-size: 1rem!important;
+        margin-bottom:1rem!important;
     }
     .container_main_services h1 {
         font-size: 4rem!important;
@@ -279,7 +281,9 @@ footer.container{
 
 
 @media only screen and (min-width: 1200px){
-
+    .custom-margin img{
+        margin-left: 1rem;
+    }
     .container.container-custom {
         bottom: -50vw;
     }
