@@ -49,11 +49,14 @@ footer.container{
     font-size: 1.2rem;
     padding-left: 2%;
 }
-
 .container_main_services .services-subparagraph{
     color: #5c5b5d;
-    font-size: 1rem;
-    padding-left: 2%;
+font-size: 1rem;
+padding-left: 2%;
+
+}
+
+.container_main_services p:nth-child(4){
     margin-bottom: 4rem;
 }
 .container_main_services div .col-md-3{
