@@ -374,7 +374,7 @@ padding-left: 2%;
 
 
 }
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 2400px){
 
 
     .container_main_services div .col-md-3 div{
@@ -391,7 +391,7 @@ padding-left: 2%;
     }
 
     .main-service-left, .main-service-right{
-        margin-top: 10vh;
+        margin-top: 5vh!important;
     }
 
               
