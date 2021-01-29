@@ -2,6 +2,18 @@
     background-image: url('../img/service_bg.png');
 }
 
+
+.service-banner-legal{
+    background-image: url('../img/medical-advisory-bg.jpg');
+}
+
+.service-banner-prescription{
+    background-image: url('../img/prescription-bg.jpg');
+}
+
+.service-banner-mental{
+    background-image: url('../img/appointment-psychologist.jpg');
+} 
 .img-telemedicine{
     width: 100%;
     height: 100%;
