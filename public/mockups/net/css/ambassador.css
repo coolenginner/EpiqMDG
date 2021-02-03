@@ -9,25 +9,130 @@
    --darkWhite:#f3f3f4;
 }
 
+
+@font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-Bold.ttf) ;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-BoldItalic.ttf) ;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
 @font-face {
     font-family: Raleway;
     src: url(../webfonts/static/Raleway-Medium.ttf) ;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+    
+@font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-Regular.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-Light.ttf) ;
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Raleway;
+    src: url(../webfonts/static/Raleway-LightItalic.ttf) ;
+    font-weight: lighter;
+    font-style: italic;
   }
   
   @font-face {
-    font-family: F37 Ginger;
-    src: url(../webfonts/f37Ginger/F37Ginger-Bold.otf) ;
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-Bold.otf') format("opentype");
+    font-weight: bold;
+    font-style: bold;
+  }
+
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-BoldItalic.otf') format("opentype");
+    font-weight: bold;
+    font-style: italic;
   }
   
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-Italic.otf') format("opentype");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-Light.otf') format("opentype");
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-LightItalic.otf') format("opentype");
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-Thin.otf') format("opentype");
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'F37 Ginger';
+    src: url('../webfonts/f37Ginger/F37Ginger-ThinItalic.otf') format("opentype");
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  
+ 
 /*
 ul,ol,ul li, ol li, a{
     font-family: "Raleway";   
     
 }*/
 
-h1,h2,h3,h4,h5,h6,p, ul,ol,ul li, ol li, a{
+h1,h2,h3,h4,h5,h6{
     font-family: "F37 Ginger";   
-    
+}
+
+p, ul,ol,ul li, ol li, a{
+    font-family:Raleway;
+}
+h1,h2,h3,h4,h5,h6, a{
+    font-weight: bold;
+}
+
+p, ul,ol,ul li, ol li{
+    font-weight: normal;
 }
 
 .a--link--underline{
