@@ -124,9 +124,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: "F37 Ginger";   
 }
 
-p, ul,ol,ul li, ol li, a{
+p, ul,ol,ul li, ol li, a, button, label, input, select{
     font-family:Raleway;
 }
+
 h1,h2,h3,h4,h5,h6, a{
     font-weight: bold;
 }
@@ -246,7 +247,9 @@ footer{
 
 }
 
-
+.display-4 {
+    font-weight: bold;
+}
 
 article img{
     width: 100%;
