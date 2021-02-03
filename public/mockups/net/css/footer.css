@@ -5,6 +5,11 @@ footer .row div h6{
     font-size: 1.2rem;
     margin-bottom: 20px;
     display: inline;
+    font-family:Raleway;
+}
+
+footer .row div a{
+    font-family:Raleway;
 }
 
 footer > div > div.col-12.col-md-4 > div > div.col-12.col-md-9.footer-info p, 
