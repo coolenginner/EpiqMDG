@@ -5,6 +5,11 @@ h1{
     font-weight: 700!important;
 }
 
+
+.col-12.col-md-4{
+    margin: 5vh 0px;
+}
+
 .ambassador-container-toolbar div h4 {
  color: var(--green);
 }

@@ -1,6 +1,9 @@
 .employees-banner{
     background-image: url('../img/employee_bg.png');
 }
+body > main > article.banner > div > div > h1:nth-child(1){
+    margin-top: -10%;
+}
 
 .custom-banner .container h5{
     margin-bottom: 1%;
@@ -26,7 +29,7 @@
    text-align: center;
 }
 .custom-minus-icon{
-    height: 3vh;
+    height: 1vh;
     width: 10vw;
     background-color:#25b492;
      margin: 12vh 3vw 12vh 0%;
@@ -81,7 +84,7 @@
 @media only screen and (max-width: 600px) {
 
     .custom-minus-icon{
-        height: 3vh;
+        height: 1vh;
         width: 20vw;
         background-color:#25b492;
          margin: 6vh 5vw 6vh 0%;
@@ -92,9 +95,14 @@
     }
     
     .jumbotron .container  h1.display-4 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-top: 0%;
     }
 
+    .btn-ambassador-success{
+        padding:5px;
+        font-size: 0.8rem;
+    }
     
 .banner div div h5{
     font-size: 1.4rem!important;
@@ -321,7 +329,7 @@
 
 @media only screen and (min-width: 1800px) {
 .custom-minus-icon{
-    height: 3vh;
+    height: 1vh;
     width: 15vw;
     background-color:#25b492;
      margin: 6vh 3vw 6vh 0%;

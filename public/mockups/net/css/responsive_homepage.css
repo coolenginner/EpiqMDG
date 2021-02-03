@@ -1,6 +1,5 @@
-.btn-ambassador-success{
-    width: fit-content;
-    margin: 10px 5vw
+body > main > article:nth-child(3) > div > div > div > div.col-12.col-md-6.opportunity--article-info > .row {
+    margin: 10px 0px 
 }
 .btn-get-started {
     position: absolute;
@@ -8,12 +7,17 @@
 }
    
 .main-service-banner div h1 {
-    margin-top: -10vh;
+    margin-top: -5vh;
+}
+.btn-ambassador-success{
+    width: fit-content;
+    margin: 10px 5vw;
 }
 footer.container{
     max-width: 100%;
     padding: 0% 5%;
 }
+
 .container.container-custom {
     display: flex;
     justify-content: center;
@@ -51,7 +55,7 @@ footer.container{
 }
 .container_main_services .services-subparagraph{
     color: #5c5b5d;
-font-size: 1rem;
+font-size: 1.5rem;
 padding-left: 2%;
 
 }
@@ -77,7 +81,6 @@ padding-left: 2%;
 
 
 .main-service-left div:nth-child(3) { 
-    margin-left: 20%;
     margin-bottom: 2rem;
 }
 
@@ -117,7 +120,7 @@ padding-left: 2%;
 }
 
 .main-service-banner{
-    background-image: url('../img/home_bg.png');
+    background-image: url('../img/home_bg_2.png');
 }
 
 .bg-homepage {
@@ -164,18 +167,18 @@ padding-left: 2%;
 }
 
     .main-service-banner div h1 {
-        margin-top: 0px;
+        font-size: 1.1rem;
+        margin-top: -5vh;
     }
 
-    .custom-banner2{
-        height: auto;
+    
+    .main-service-banner div h1,.main-service-banner div h1 span{
+        font-size: 1.1rem;
     }
+
+
     .container.container-custom {
         bottom: -5vh;
-    }
-
-    .main-service-banner div h1,.main-service-banner div h1 span{
-        font-size: 2.1rem;
     }
 
     .container_main_services div .col-md-3 div{
@@ -202,6 +205,7 @@ padding-left: 2%;
 
     .container_main_services div .col-md-3 div h4{
         font-size: 1.3rem;
+        font-weight: bold;
     }
 
     .bg-homepage {
@@ -244,9 +248,11 @@ padding-left: 2%;
         padding: 3% 8%;
     }
 
-    .btn-ambassador-success{
-        width: 80%;
-        margin: 2vh 5%;
+    body > main > article.banner > div > div.container.container-custom > a.btn-ambassador-success{
+        width: 120px;
+        margin: 8vh 5%;
+        padding: 5px 10px;
+        font-size: 1rem;
     }
 
     .opportunity--article-info .row .col-10{
@@ -257,6 +263,23 @@ padding-left: 2%;
 
 @media only screen and (min-width: 600px) and (max-width: 991px){
     
+    .main-service-banner div h1 {
+        font-size: 2.5rem;
+        margin-top: -5vh;
+    }
+
+    
+    .main-service-banner div h1,.main-service-banner div h1 span{
+        font-size: 2.5rem;
+    }
+
+    body > main > article.banner > div > div.container.container-custom > a.btn-ambassador-success{
+        width: 120px;
+        margin: 20% 5% 0px 5%;
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
     .icon-image, .icon-image2{
         padding-right: 2rem;
     }
@@ -278,12 +301,31 @@ padding-left: 2%;
 
     .container_main_services div .col-md-3 div h4{
         font-size: 0.8rem;
+        font-weight: bold;
     }
     
 }
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .main-service-banner div h1 {
+        font-size: 3rem;
+        margin-top: -5vh;
+    }
+
+    
+    .main-service-banner div h1,.main-service-banner div h1 span{
+        font-size: 3rem;
+    }
+
+    body > main > article.banner > div > div.container.container-custom > a.btn-ambassador-success{
+        width: 140px;
+        margin: 20vw 5% 0px 5%;
+        padding: 5px 10px;
+        font-size: 1.2rem;
+    }
+
 
     .container.container-custom {
         bottom: -15vh;
@@ -294,22 +336,23 @@ padding-left: 2%;
     }
     
     .container_main_services div .col-md-3 div p{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .container_main_services div .col-md-3 div h4{
-        font-size: 0.8rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     
     .main-service-left div:nth-child(3) { 
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 2rem;
     }
     
         
     .main-service-right div:nth-child(3) { 
-        margin-top: 15%;
+        margin-top: 5%;
         margin-bottom: 2rem;
     }
     
@@ -317,6 +360,25 @@ padding-left: 2%;
 
 
 @media only screen and (min-width: 1200px){
+
+    
+    .main-service-banner div h1 {
+        font-size: 4rem;
+        margin-top: -5vh;
+    }
+
+    
+    .main-service-banner div h1,.main-service-banner div h1 span{
+        font-size: 4rem;
+    }
+
+    body > main > article.banner > div > div.container.container-custom > a.btn-ambassador-success{
+        width: 140px;
+        margin: 23vw 5% 0px 5%;
+        padding: 5px 10px;
+        font-size: 1.2rem;
+    }
+
     .custom-margin img{
         margin-left: 2rem;
     }
@@ -331,11 +393,12 @@ padding-left: 2%;
         font-size: 0.6rem;
     }
     .container_main_services div .col-md-3 div p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .container_main_services div .col-md-3 div h4{
         font-size: 1.2rem;
+        font-weight: bold;
     }
 
     .main-service-left, .main-service-right{
@@ -349,7 +412,7 @@ padding-left: 2%;
 
           
       .main-service-left div:nth-child(3) { 
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 2rem;
     }
     
@@ -369,8 +432,14 @@ padding-left: 2%;
     }
 
     .main-service-banner div h1 {
-        margin-top: -5vh !important;
+        margin-top: 5vh !important;
     }
+
+        
+.main-service-banner div h1,.main-service-banner div h1 span{
+    font-size: 7rem;
+}
+
 
 
 }
@@ -388,6 +457,7 @@ padding-left: 2%;
 
     .container_main_services div .col-md-3 div h4{
         font-size: 2.8rem;
+        font-weight: bold;
     }
 
     .main-service-left, .main-service-right{
@@ -406,8 +476,13 @@ padding-left: 2%;
     margin-bottom: 2rem;
 }
 
-.main-service-banner div h1 {
-    font-size:7rem;
-}
 
+
+body > main > article.banner > div > div.container.container-custom > a.btn-ambassador-success{
+    width: 20vw;
+    margin: 23vw 5% 0px 5%;
+    padding: 5px 10px;
+    font-size: 3rem;
+    border-radius: 80px;
+}
 }

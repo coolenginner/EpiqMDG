@@ -22,7 +22,9 @@
 @media only screen and (min-width: 768px) {
     .navbar-nav li .btn-ambassador-success{
         margin: 0px!important;
+        font-size: 14px;
     }
+
     .hide-not-responsive{
         display: none;
     }
@@ -32,7 +34,7 @@
     }
 
     .navbar-nav{
-        justify-content: center;
+        justify-content: space-between;
     }
 
 
